@@ -93,24 +93,24 @@ Each table lists only the **core** items (1–2 line description + links). For f
 |---|---|---|---|---|---|---|---|
 | B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu24] | [Paper](link) | [Code](https://github.com/KindXiaoming/pykan) |
 | Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [SS24] | [Paper](https://arxiv.org/abs/2405.07200) | - |
-| Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head | [Daryakenari25] | [Paper](link) | - |
+| Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head | [Daryakenari25] | [Paper](https://arxiv.org/abs/2504.07379) | - |
 | Chebyshev (grid) | Global | $\sum_k c_kT_k\Big(\tfrac{1}{m}\sum_i \tanh(w_i x+b_i)\Big)$ | Yes | Chebyshev + tanh | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 | ReLU-KAN | Local | $\sum_i w_iR_i(x)$ | Yes | Squared ReLU | [Qiu24] | [Paper](link) | [Code](https://github.com/quiqi/relu_kan) |
-| HRKAN | Local | $\sum_i w_i\big[\mathrm{ReLU}(x)\big]^m$ | Yes | Polynomial ReLU | [KAN_pde_So24] | [Paper](link) | [Code](https://github.com/kelvinhkcs/HRKAN) |
-| Adaptive ReLU-KAN | Local | $\sum_i w_iv_i(x)$ | Yes | Adaptive ReLU | [pde_Rigas24] | [Paper](link) | [Code](https://github.com/srigas/jaxKAN) |
-| fKAN (Jacobi) | Global | $\sum_n c_nP_n(x)$ | No | Jacobi | [Aghaei24_fkan] | [Paper](link) | [Code](https://github.com/alirezaafzalaghaei/fKAN) |
-| rKAN (Padé/Jacobi) | Global | $\dfrac{\sum_i a_iP_i(x)}{\sum_j b_jP_j(x)}$ | No | Rational + Jacobi | [Aghaei24_rkan] | [Paper](link) | [Code](https://github.com/alirezaafzalaghaei/rKAN) |
-| Jacobi-KAN | Global | $\sum_i c_iP_i(\tanh x)$ | No | Jacobi + tanh | [Kashefi25] | [Paper](link) | [Code](https://github.com/Ali-Stanford/KAN_PointNet_CFD) |
-| FourierKAN | Global | $\sum_k a_k\cos(kx)+b_k\sin(kx)$ | No | Fourier | [Xu25_fourier] | [Paper](link) | [Code](https://github.com/Jinfeng-Xu/FKAN-GCF) |
-| KAF | Global | $\alpha\mathrm{GELU}(x)+\sum_j \beta_j\psi_j(x)$ | No | RFF + GELU | [Zhang25] | [Paper](link) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
-| Gaussian (FastKAN) | Local | $\sum_i w_i\exp\Big(-\big(\tfrac{x-g_i}{\varepsilon}\big)^2\Big)$ | Yes | Gaussian RBF | [Li24] | [Paper](link) | [Code](https://github.com/ZiyaoLi/fast-kan) |
-| RSWAF-KAN | Local | $\sum_i w_i\left(s_i-\tanh^2\big(\tfrac{x-c_i}{h_i}\big)\right)$ | Yes | Switch (tanh$^2$) | [Athanasios2024] | [Paper](link) | [Code](https://github.com/AthanasiosDelis/faster-kan) |
-| CVKAN | Local | $\sum_{u,v} w_{uv}\exp\big(-\lvert z-g_{uv}\rvert^2\big)$ | Yes | Complex Gaussian | [Wolff25] | [Paper](link) | [Code](https://github.com/M-Wolff/CVKAN) |
-| BSRBF-KAN | Local | $\sum_i a_i B_i(x)+\sum_j b_j\exp\big(-\tfrac{(x-g_j)^2}{\varepsilon^2}\big)$ | Yes | B-spline + Gaussian | [Ta24] | [Paper](link) |-|
-| Wav-KAN | Local | $\sum_{j,k} c_{j,k}\psi\big(\tfrac{x-u_{j,k}}{s_j}\big)$ | No | Wavelet | [Bozorgasl24] | [Paper](link) | [Code](https://github.com/zavareh1/Wav-KAN}{zavareh1/Wav-KAN) |
+| HRKAN | Local | $\sum_i w_i\big[\mathrm{ReLU}(x)\big]^m$ | Yes | Polynomial ReLU | [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/kelvinhkcs/HRKAN) |
+| Adaptive ReLU-KAN | Local | $\sum_i w_iv_i(x)$ | Yes | Adaptive ReLU | [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) | [Code](https://github.com/srigas/jaxKAN) |
+| fKAN (Jacobi) | Global | $\sum_n c_nP_n(x)$ | No | Jacobi | [Aghaei24_fkan] | [Paper](https://arxiv.org/abs/2406.07456) | [Code](https://github.com/alirezaafzalaghaei/fKAN) |
+| rKAN (Padé/Jacobi) | Global | $\dfrac{\sum_i a_iP_i(x)}{\sum_j b_jP_j(x)}$ | No | Rational + Jacobi | [Aghaei24_rkan] | [Paper](https://arxiv.org/abs/2406.14495) | [Code](https://github.com/alirezaafzalaghaei/rKAN) |
+| Jacobi-KAN | Global | $\sum_i c_iP_i(\tanh x)$ | No | Jacobi + tanh | [Kashefi25] | [Paper](https://arxiv.org/abs/2408.02950) | [Code](https://github.com/Ali-Stanford/KAN_PointNet_CFD) |
+| FourierKAN | Global | $\sum_k a_k\cos(kx)+b_k\sin(kx)$ | No | Fourier | [Xu25_fourier] | [Paper](https://arxiv.org/abs/2406.01034v3) | [Code](https://github.com/Jinfeng-Xu/FKAN-GCF) |
+| KAF | Global | $\alpha\mathrm{GELU}(x)+\sum_j \beta_j\psi_j(x)$ | No | RFF + GELU | [Zhang25] | [Paper](https://arxiv.org/abs/2502.06018) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
+| Gaussian (FastKAN) | Local | $\sum_i w_i\exp\Big(-\big(\tfrac{x-g_i}{\varepsilon}\big)^2\Big)$ | Yes | Gaussian RBF | [Li24] | [Paper](https://arxiv.org/abs/2405.06721) | [Code](https://github.com/ZiyaoLi/fast-kan) |
+| RSWAF-KAN | Local | $\sum_i w_i\left(s_i-\tanh^2\big(\tfrac{x-c_i}{h_i}\big)\right)$ | Yes | Switch (tanh$^2$) | [Athanasios2024] | - | [Code](https://github.com/AthanasiosDelis/faster-kan) |
+| CVKAN | Local | $\sum_{u,v} w_{uv}\exp\big(-\lvert z-g_{uv}\rvert^2\big)$ | Yes | Complex Gaussian | [Wolff25] | [Paper](https://arxiv.org/abs/2502.02417) | [Code](https://github.com/M-Wolff/CVKAN) |
+| BSRBF-KAN | Local | $\sum_i a_i B_i(x)+\sum_j b_j\exp\big(-\tfrac{(x-g_j)^2}{\varepsilon^2}\big)$ | Yes | B-spline + Gaussian | [Ta24] | [Paper](https://arxiv.org/abs/2406.11173) | [Code](https://github.com/hoangthangta/BSRBF_KAN) |
+| Wav-KAN | Local | $\sum_{j,k} c_{j,k}\psi\big(\tfrac{x-u_{j,k}}{s_j}\big)$ | No | Wavelet | [Bozorgasl24] | [Paper](https://arxiv.org/abs/2405.12832) | [Code](https://github.com/zavareh1/Wav-KAN}{zavareh1/Wav-KAN) |
 | FBKAN | Local | $\sum_j \omega_j(x)K_j(x)$ | Yes | PoU + B-spline | [pde_fbkan_Howard24] | [Paper](https://arxiv.org/abs/2406.19662) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
-| SincKAN | Global | $\sum_{i=-N}^{N} c_i\mathrm{sinc}\left(\frac{\pi}{h}(x - i h)\right)$ | Yes | Sinc | [Yu24] | [Paper](link) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
-| Poly-KAN | Global | $\sum_i w_iP_i(x)$ | No | Polynomial | [Seydi24a] | [Paper](link) | [Code](https://github.com/seydi1370/Basis_Functions) |
+| SincKAN | Global | $\sum_{i=-N}^{N} c_i\mathrm{sinc}\left(\frac{\pi}{h}(x - i h)\right)$ | Yes | Sinc | [Yu24] | [Paper](https://arxiv.org/abs/2410.04096) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
+| Poly-KAN | Global | $\sum_i w_iP_i(x)$ | No | Polynomial | [Seydi24a] | [Paper](https://arxiv.org/abs/2406.02583) | [Code](https://github.com/seydi1370/Basis_Functions) |
 
 
 ---
@@ -177,8 +177,8 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| SincKAN for kinks/boundary layers. | [Yu24] | [Paper](link) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
-| rKAN (rational bases) for asymptotics/jumps. | [Aghaei24_rkan] | [Paper](link) | [Code](https://github.com/alirezaafzalaghaei/rKAN) |
+| SincKAN for kinks/boundary layers. | [Yu24] | [Paper](https://arxiv.org/abs/2410.04096) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
+| rKAN (rational bases) for asymptotics/jumps. | [Aghaei24_rkan] | [Paper](https://arxiv.org/abs/2406.14495) | [Code](https://github.com/alirezaafzalaghaei/rKAN) |
 | DKAN: $\tanh$ jump gate + spline background. | [Lei25] | [Paper](link) | - |
 | KINN for singularities/stress concentrations. | [pde_Wang24] | [Paper](link) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
 | Two-phase PINN–KAN for saturation fronts. | [Kalesh25] | [Paper](link) | - |
@@ -187,7 +187,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Adam/RAdam warmup → (L-)BFGS refinement. | [Mostajeran25], [Daryakenari25], [KAN_pde_Zeng24] | [Paper](link) | - |
+| Adam/RAdam warmup → (L-)BFGS refinement. | [Mostajeran25], [Daryakenari25], [KAN_pde_Zeng24] | [Paper](https://arxiv.org/abs/2504.07379) | - |
 | Hybrid optimizers for sharp fronts. | [Kalesh25] | [Paper](link) | - |
 | Bayesian hyperparameter tuning for KANs. | [Lin25_geo] | [Paper](link) | - |
 | Bayesian PINN–KAN (variational + KL) for UQ. | [pde_bayesian_Giroux24] | [Paper](link) | - |
@@ -203,23 +203,23 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
 | ReLU^m activations replace splines (CUDA-friendly). | [Qiu25] | [Paper](link) | [Code](https://github.com/Iri-sated/PowerMLP) |
-| Spline→matmul CUDA kernels (GEMM fusion). | [Qiu24], [KAN_pde_So24] | [Paper](link) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/quiqi/relu_kan) |
+| Spline→matmul CUDA kernels (GEMM fusion). | [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) |
 | Matrix B-spline evaluation fused on GPU. | [Coffman25] | [Paper](link) | [Code](https://github.com/OSU-STARLAB/MatrixKAN) |
-| Dual-matrix merge + trainable RFF for scaling. | [Zhang25] | [Paper](link) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
+| Dual-matrix merge + trainable RFF for scaling. | [Zhang25] | [Paper](https://arxiv.org/abs/2502.06018) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
 | Custom GPU backward for KAN attention blocks. | [Raffel25] | [Paper](link) | - |
 | Parallel KAN ∥ MLP branches (stream/layer parallelism). | [Xu25] | [Paper](https://arxiv.org/abs/2503.23289) | - |
 | Domain decomposition parallelism (multi-GPU, PoU/separable). | [KAN_pde_Shukla24], [pde_fbkan_Howard24], [pde_jacob24] | [Paper](https://arxiv.org/abs/2406.02917) [paper](https://arxiv.org/abs/2406.19662) [Paper](https://arxiv.org/abs/2411.06286)| [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
-| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari25], [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) | [Code](https://github.com/srigas/jaxKAN) |
+| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari25], [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) [Paper](https://arxiv.org/abs/2504.07379) | [Code](https://github.com/srigas/jaxKAN) |
 
 ### 8.2 Matrix Optimization & Parameter-Efficient Bases
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| ReLU-power vs B-splines: fewer params, vectorized polynomials. | [Qiu25], [Qiu24], [KAN_pde_So24] | [Paper](link) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/kelvinhkcs/HRKAN)|
+| ReLU-power vs B-splines: fewer params, vectorized polynomials. | [Qiu25], [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/kelvinhkcs/HRKAN)|
 | Orthogonal polynomials with cheap recurrences. | [KAN_pde_Shukla24], [Guo24], [Mostajeran24], [Mostajeran25], [pde_Wang24] | [Paper](https://arxiv.org/abs/2406.02917) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
 | Compact RBF bases (local Gaussians). | [Lin25_geo], [pde_Koeing24] | [Paper](link) | - |
 | Wavelets for multi-resolution and sparse coeffs. | [pde_Patra24] | [Paper](link) | - |
-| Dual-matrix + RFF compression to cut memory traffic. | [Zhang25] | [Paper](link) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
+| Dual-matrix + RFF compression to cut memory traffic. | [Zhang25] | [Paper](https://arxiv.org/abs/2502.06018) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
 | Sparsity regularization (ℓ1/group) with pruning. | [Guo25] | [Paper](link) | - |
 | Hierarchical channel-wise refinement (shared params). | [Actor25] | [Paper](https://arxiv.org/abs/2505.18131) | - |
 | DEKAN: connectivity via Differential Evolution. | [Li25_DEKAN] | [Paper](link) | - |
@@ -253,7 +253,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Nested activations (e.g., tanh∘tanh) for bounded outputs & smooth grads. | [Daryakenari25] | [Paper](link) | - |
+| Nested activations (e.g., tanh∘tanh) for bounded outputs & smooth grads. | [Daryakenari25] | [Paper](https://arxiv.org/abs/2504.07379) | - |
 | DropKAN: post-activation masking (noise after spline eval). | [Altarabichi24] | [Paper](link) | - |
 
 
