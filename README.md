@@ -147,7 +147,7 @@ while remaining relevant to other KAN applications.
 | Residual physics + sparse regression (variable-coeff. PDEs). |  [Guo](https://doi.org/10.1016/j.physd.2025.134689) | 
 | Self-scaled residual reweighting (ssRBA). | [Toscano](https://arxiv.org/abs/2412.16738) , [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 | Augmented-Lagrangian PINN–KAN (learnable multipliers). | [Zhang](https://doi.org/10.1038/s41598-025-92900-1) | 
-| Velocity–vorticity loss for turbulence reconstruction. | [Toscano](https://doi.org/10.1126/sciadv.ads5236) | 
+| Velocity–vorticity loss for turbulence reconstruction. | [Toscano](https://arxiv.org/abs/2407.15727v2) | 
 | Fractional/integro-diff. operators in KAN. | [Aghaei](https://arxiv.org/abs/2409.06649) | 
 | Physics-informed KAN for high-index DAEs (dual-network structure). | [Lou](https://arxiv.org/abs/2504.15806) |
 
