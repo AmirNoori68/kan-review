@@ -149,6 +149,7 @@ while remaining relevant to other KAN applications.
 | Augmented-Lagrangian PINN–KAN (learnable multipliers). | [Zhang](https://doi.org/10.1038/s41598-025-92900-1) | 
 | Velocity–vorticity loss for turbulence reconstruction. | [Toscano](https://doi.org/10.1126/sciadv.ads5236) | 
 | Fractional/integro-diff. operators in KAN. | [Aghaei](https://arxiv.org/abs/2409.06649) | 
+| Physics-informed KAN for high-index DAEs (dual-network structure). | [Lou](https://arxiv.org/abs/2504.15806) |
 
 ### 5.2 Adaptive Sampling & Grids
 
