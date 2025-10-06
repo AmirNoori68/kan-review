@@ -15,17 +15,18 @@ Each table lists only the **core** items (1–2 line description + links). For f
 ---
 ## Review and Survey Papers on KANs
 
-| Focus / Contribution | Citation | Paper | Code |
-|---|---|---|---|
-| Early overview of KAN architectures and variants. | [Ji24] | [Paper](link) | — |
-| Comprehensive early survey (first 2 months of KAN research). | [Dutta25_review] | [Paper](link) | — |
-| Interpretability and interpolation perspectives in KANs. | [Basina24_interp_review] | [Paper](link) | — |
-| Mathematical foundations and regression-based KAN comparison. | [Faroughi25_review] | [Paper](link) | — |
-| Overview of architectures and use cases (conference paper). | [Essahraui25] | [Paper](link) | — |
-| Applied and theoretical perspectives; interpretability focus. | [Andrade25] | [Paper](link) | — |
-| Survey on optimization and generalization aspects of KANs. | [Beatrize25] | [Paper](link) | — |
-| Domain applications and scaling trends in KANs. | [Kilani25] | [Paper](link) | — |
-| Broad comparative review across KAN architectures. | [Somvanshi25] | [Paper](link) | — |
+| Title | Citation | Paper | 
+|---|---|---|
+| The first two months of Kolmogorov-Arnold Networks (KANs): A survey of the state-of-the-art | [Dutta25_review] | [Paper](https://link.springer.com/content/pdf/10.1007/s11831-025-10328-2.pdf) |
+| KAT to KANs: A review of Kolmogorov–Arnold Networks and the neural leap forward | [Basina24_interp_review] | [Paper](https://arxiv.org/abs/2411.10622) |
+| Scientific machine learning with Kolmogorov–Arnold Networks | [Faroughi25_review] | [Paper](https://arxiv.org/abs/2507.22959) |
+| Kolmogorov-Arnold Networks: Overview of Architectures and Use Cases | [Essahraui25] | [Paper](https://ieeexplore.ieee.org/abstract/document/11135248) |
+| Kolmogorov–Arnold Networks for interpretable and efficient function approximation | [Andrade25] | [Paper](https://www.preprints.org/manuscript/202504.1742/v1) |
+| Scalable and interpretable function-based architectures: A survey of Kolmogorov–Arnold Networks | [Beatrize25] | [Paper](https://engrxiv.org/preprint/view/4515) |
+| Convolutional Kolmogorov–Arnold Networks: A survey | [Kilani25] | [Paper](https://hal.science/hal-05177765/document) |
+| Convolutional Kolmogorov–Arnold Networks | [Bonder25] | [Paper](https://arxiv.org/abs/2406.13155) |
+| A survey on Kolmogorov–Arnold Networks | [Somvanshi25] | [Paper](https://arxiv.org/abs/2411.06078) |
+| Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability | [Hou25] | [Paper](https://arxiv.org/abs/2407.11075) |
 
 ---
 ## 📚 Representative Repositories
@@ -93,7 +94,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu24] | [Paper](link) | [Code](https://github.com/KindXiaoming/pykan) |
 | Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [SS24] | [Paper](https://arxiv.org/abs/2405.07200) | - |
 | Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head | [Daryakenari25] | [Paper](link) | - |
-| Chebyshev (grid) | Global | $\sum_k c_kT_k\Big(\tfrac{1}{m}\sum_i \tanh(w_i x+b_i)\Big)$ | Yes | Chebyshev + tanh | [Toscano24_kkan] | [Paper](link) | [Code](https://github.com/jdtoscano94/KKANs_PIML}{jdtoscano94/KKANs\_PIML) |
+| Chebyshev (grid) | Global | $\sum_k c_kT_k\Big(\tfrac{1}{m}\sum_i \tanh(w_i x+b_i)\Big)$ | Yes | Chebyshev + tanh | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 | ReLU-KAN | Local | $\sum_i w_iR_i(x)$ | Yes | Squared ReLU | [Qiu24] | [Paper](link) | [Code](https://github.com/quiqi/relu_kan) |
 | HRKAN | Local | $\sum_i w_i\big[\mathrm{ReLU}(x)\big]^m$ | Yes | Polynomial ReLU | [KAN_pde_So24] | [Paper](link) | [Code](https://github.com/kelvinhkcs/HRKAN) |
 | Adaptive ReLU-KAN | Local | $\sum_i w_iv_i(x)$ | Yes | Adaptive ReLU | [pde_Rigas24] | [Paper](link) | [Code](https://github.com/srigas/jaxKAN) |
@@ -107,7 +108,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | CVKAN | Local | $\sum_{u,v} w_{uv}\exp\big(-\lvert z-g_{uv}\rvert^2\big)$ | Yes | Complex Gaussian | [Wolff25] | [Paper](link) | [Code](https://github.com/M-Wolff/CVKAN) |
 | BSRBF-KAN | Local | $\sum_i a_i B_i(x)+\sum_j b_j\exp\big(-\tfrac{(x-g_j)^2}{\varepsilon^2}\big)$ | Yes | B-spline + Gaussian | [Ta24] | [Paper](link) |-|
 | Wav-KAN | Local | $\sum_{j,k} c_{j,k}\psi\big(\tfrac{x-u_{j,k}}{s_j}\big)$ | No | Wavelet | [Bozorgasl24] | [Paper](link) | [Code](https://github.com/zavareh1/Wav-KAN}{zavareh1/Wav-KAN) |
-| FBKAN | Local | $\sum_j \omega_j(x)K_j(x)$ | Yes | PoU + B-spline | [pde_fbkan_Howard24] | [Paper](link) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
+| FBKAN | Local | $\sum_j \omega_j(x)K_j(x)$ | Yes | PoU + B-spline | [pde_fbkan_Howard24] | [Paper](https://arxiv.org/abs/2406.19662) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
 | SincKAN | Global | $\sum_{i=-N}^{N} c_i\mathrm{sinc}\left(\frac{\pi}{h}(x - i h)\right)$ | Yes | Sinc | [Yu24] | [Paper](link) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
 | Poly-KAN | Global | $\sum_i w_iP_i(x)$ | No | Polynomial | [Seydi24a] | [Paper](link) | [Code](https://github.com/seydi1370/Basis_Functions) |
 
@@ -120,47 +121,47 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Physics-informed KAN (cPIKAN): residual attention, entropy-viscosity. | [KAN_pde_Shukla24] | [Paper](link) | - |
-| KAN-PINN for strongly nonlinear PDEs (actuator deflection). | [Zhang25_comp] | [Paper](link) | - |
-| Attention-guided KAN with NSE residuals + BC losses. | [Yang25] | [Paper](link) | - |
-| Residual physics + sparse regression (variable-coeff. PDEs). | [Guo25] | [Paper](link) | -|
-| Self-scaled residual reweighting (ssRBA). | [Toscano24_kkan] | [Paper](link) | [Code](https://github.com/jdtoscano94/KKANs_PIML}{jdtoscano94/KKANs\_PIML) |
-| Augmented-Lagrangian PINN–KAN (learnable multipliers). | [pde_Zhang24] | [Paper](link) | - |
-| Velocity–vorticity loss for turbulence reconstruction. | [Toscano25_aivt] | [Paper](link) |-|
-| Fractional/integro-diff. operators in KAN. | [Aghaei24_kantorol] | [Paper](link) | -|
+| Physics-informed KAN (cPIKAN): residual attention, entropy-viscosity. | [KAN_pde_Shukla24] | [Paper](https://arxiv.org/abs/2406.02917) | - |
+| KAN-PINN for strongly nonlinear PDEs (actuator deflection). | [Zhang25_comp] | [Paper](https://doi.org/10.1016/j.engappai.2025.110126) | - |
+| Attention-guided KAN with NSE residuals + BC losses. | [Yang25] | [Paper](https://doi.org/10.1016/j.jcp.2025.113846) | - |
+| Residual physics + sparse regression (variable-coeff. PDEs). | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | -|
+| Self-scaled residual reweighting (ssRBA). | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
+| Augmented-Lagrangian PINN–KAN (learnable multipliers). | [pde_Zhang24] | [Paper](https://doi.org/10.1038/s41598-025-92900-1) | - |
+| Velocity–vorticity loss for turbulence reconstruction. | [Toscano25_aivt] | [Paper](https://doi.org/10.1126/sciadv.ads5236) |-|
+| Fractional/integro-diff. operators in KAN. | [Aghaei24_kantorol] | [Paper](https://arxiv.org/abs/2409.06649) | -|
 
 ### 7.2 Adaptive Sampling & Grids
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Multilevel knots (coarse→fine) for nested spline spaces. | [Actor25] | [Paper](link) | - |
-| Free-knot KAN (trainable knots via cumulative softmax). | [Actor25] | [Paper](link) | - |
-| Grid extension with optimizer state transition. | [pde_Rigas24] | [Paper](link) | - |
-| Residual-adaptive sampling (RAD). | [pde_Rigas24] | [Paper](link) | [Code](https://github.com/srigas/jaxKAN) |
-| Multi-resolution sampling schedule for cPIKAN. | [Yang25_multiScale] | [Paper](link) | - |
+| Multilevel knots (coarse→fine) for nested spline spaces. | [Actor25] | [Paper](https://arxiv.org/abs/2505.18131) | - |
+| Free-knot KAN (trainable knots via cumulative softmax). | [Actor25] | [Paper](https://arxiv.org/abs/2505.18131) | - |
+| Grid extension with optimizer state transition. | [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) | [Code](https://github.com/srigas/jaxKAN) |
+| Residual-adaptive sampling (RAD). | [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) | [Code](https://github.com/srigas/jaxKAN) |
+| Multi-resolution sampling schedule for cPIKAN. | [Yang25_multiScale] | [Paper](https://arxiv.org/abs/2507.19888) | - |
 
 ### 7.3 Domain Decomposition
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Finite-basis KAN (FBKAN) with PoU blending of local KANs. | [pde_fbkan_Howard24] | [Paper](link) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
-| Temporal subdomains to improve NTK conditioning. | [Faroughi25] | [Paper](link) | - |
+| Finite-basis KAN (FBKAN) with PoU blending of local KANs. | [pde_fbkan_Howard24] | [Paper](https://arxiv.org/abs/2406.19662) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
+| Temporal subdomains to improve NTK conditioning. | [Faroughi25] | [Paper](https://arxiv.org/abs/2506.07958) | - |
 
 ### 7.4 Function Decomposition
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Multi-fidelity KAN (freeze LF, learn HF linear + nonlinear heads). | [pde_Howard24] | [Paper](link) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
-| Separable PIKAN (sum of products of 1D KAN factors). | [pde_jacob24] | [Paper](link) | - |
-| KAN-SR: recursive simplification for symbolic discovery. | [Buhler25_regression] | [Paper](link) | - |
+| Multi-fidelity KAN (freeze LF, learn HF linear + nonlinear heads). | [pde_Howard24] | [Paper](https://arxiv.org/abs/2410.14764) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
+| Separable PIKAN (sum of products of 1D KAN factors). | [pde_jacob24] | [Paper](https://arxiv.org/abs/2411.06286) | - |
+| KAN-SR: recursive simplification for symbolic discovery. | [Buhler25_regression] | [Paper](https://arxiv.org/abs/2509.10089) | - |
 
 ### 7.5 Hybrid / Ensemble & Data
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| MLP–KAN mixture of experts. | [He24] | [Paper](link) | - |
-| Parallel KAN ∥ MLP branches with learnable fusion. | [Xu25] | [Paper](link) | - |
-| KKAN: per-dim MLP features + explicit basis expansion. | [Toscano24_kkan] | [Paper](link) | [Code](https://github.com/jdtoscano94/KKANs_PIML}{jdtoscano94/KKANs\_PIML) |
+| MLP–KAN mixture of experts. | [He24] | [Paper](https://arxiv.org/abs/2410.03027) | [Code](https://github.com/DLYuanGod/MLP-KAN) |
+| Parallel KAN ∥ MLP branches with learnable fusion. | [Xu25] | [Paper](https://arxiv.org/abs/2503.23289) | - |
+| KKAN: per-dim MLP features + explicit basis expansion. | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 
 ### 7.6 Sequence / Attention Hybrids
 
@@ -206,21 +207,21 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | Matrix B-spline evaluation fused on GPU. | [Coffman25] | [Paper](link) | [Code](https://github.com/OSU-STARLAB/MatrixKAN) |
 | Dual-matrix merge + trainable RFF for scaling. | [Zhang25] | [Paper](link) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
 | Custom GPU backward for KAN attention blocks. | [Raffel25] | [Paper](link) | - |
-| Parallel KAN ∥ MLP branches (stream/layer parallelism). | [Xu25] | [Paper](link) | - |
-| Domain decomposition parallelism (multi-GPU, PoU/separable). | [KAN_pde_Shukla24], [pde_fbkan_Howard24], [pde_jacob24] | [Paper](link) | [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
-| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari25], [pde_Rigas24] | [Paper](link) | [Code](https://github.com/srigas/jaxKAN) |
+| Parallel KAN ∥ MLP branches (stream/layer parallelism). | [Xu25] | [Paper](https://arxiv.org/abs/2503.23289) | - |
+| Domain decomposition parallelism (multi-GPU, PoU/separable). | [KAN_pde_Shukla24], [pde_fbkan_Howard24], [pde_jacob24] | [Paper](https://arxiv.org/abs/2406.02917) [paper](https://arxiv.org/abs/2406.19662) [Paper](https://arxiv.org/abs/2411.06286)| [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
+| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari25], [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) | [Code](https://github.com/srigas/jaxKAN) |
 
 ### 8.2 Matrix Optimization & Parameter-Efficient Bases
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
 | ReLU-power vs B-splines: fewer params, vectorized polynomials. | [Qiu25], [Qiu24], [KAN_pde_So24] | [Paper](link) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/kelvinhkcs/HRKAN)|
-| Orthogonal polynomials with cheap recurrences. | [KAN_pde_Shukla24], [Guo24], [Mostajeran24], [Mostajeran25], [pde_Wang24] | [Paper](link) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
+| Orthogonal polynomials with cheap recurrences. | [KAN_pde_Shukla24], [Guo24], [Mostajeran24], [Mostajeran25], [pde_Wang24] | [Paper](https://arxiv.org/abs/2406.02917) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
 | Compact RBF bases (local Gaussians). | [Lin25_geo], [pde_Koeing24] | [Paper](link) | - |
 | Wavelets for multi-resolution and sparse coeffs. | [pde_Patra24] | [Paper](link) | - |
 | Dual-matrix + RFF compression to cut memory traffic. | [Zhang25] | [Paper](link) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
 | Sparsity regularization (ℓ1/group) with pruning. | [Guo25] | [Paper](link) | - |
-| Hierarchical channel-wise refinement (shared params). | [Actor25] | [Paper](link) | - |
+| Hierarchical channel-wise refinement (shared params). | [Actor25] | [Paper](https://arxiv.org/abs/2505.18131) | - |
 | DEKAN: connectivity via Differential Evolution. | [Li25_DEKAN] | [Paper](link) | - |
 | Mix spectral (derivatives) + spatial (coeffs) sparsity for operators. | [Lee25_operator] | [Paper](link) | - |
 
@@ -237,16 +238,16 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | Layerwise ℓ1 on edge activations + entropy balance. | [Liu24] | [Paper](link) | - |
 | EfficientKAN: direct ℓ1 on weights (simple, practical). | [EfficientKAN] | [Paper](link) | [Code](https://github.com/Blealtan/efficient-kan) |
 | Sparse symbolic discovery with ℓ1 + entropy. | [Wang25] | [Paper](link) | - |
-| PDE KAN: ℓ1 + smoothness penalty to denoise coefficients. | [Guo25] | [Paper](link) | - |
+| PDE KAN: ℓ1 + smoothness penalty to denoise coefficients. | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | - |
 | Post-training pruning with layerwise ℓ1. | [pde_Koeing24] | [Paper](link) | - |
-| KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler25_regression] | [Paper](link) | - |
+| KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler25_regression] | [Paper](https://arxiv.org/abs/2509.10089) | - |
 
 ### 9.2 ℓ2 weight decay and extensions
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
 | AAKAN: ℓ2 + temporal smoothing + MI regularizer. | [Shen25] | [Paper](link) | - |
-| Small ℓ2 (e.g., 1e−5) improves stability in PINNs/DeepOKAN. | [KAN_pde_Shukla24], [Toscano25_aivt] | [Paper](link) | - |
+| Small ℓ2 (e.g., 1e−5) improves stability in PINNs/DeepOKAN. | [KAN_pde_Shukla24], [Toscano25_aivt] | [Paper](https://arxiv.org/abs/2406.02917) [paper](https://doi.org/10.1126/sciadv.ads5236) | - |
 
 ### 9.3 Implicit and dropout-style regularizers
 
@@ -272,7 +273,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 |---|---|---|---|
 | NTK view: learnable bases flatten spectra; less spectral bias than MLP. | [Gao25] | [Paper](link) | — |
 | Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea25_BasisComp] | [Paper](https://github.com/afrah/pinn_learnable_activation) | — |
-| KAN vs MLP: earlier capture of high frequencies under NTK dynamics. | [Wang25] | [Paper](link) | — |
+| KAN vs MLP: earlier capture of high frequencies under NTK dynamics. | [Wang25] | [Paper](https://arxiv.org/abs/2410.01803) | — |
 
 ### 10.3 Empirical Power Laws
 
@@ -284,22 +285,4 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 ---
 
-## Paper & Bib
-
-- Review PDF: *(add link)*  
-- BibTeX file: *(add `references.bib` link)*
-
-**Reference style:** keep citation keys consistent with the paper, e.g., `Wang25`, `Schoots25`.
-
----
-
-## License
-
-Choose a license (e.g., CC BY-4.0 for text, MIT for code) and add it here.
-
----
-
-## Acknowledgments
-
-This repo accompanies the review paper and will be updated periodically with concise tables and links only.
 
