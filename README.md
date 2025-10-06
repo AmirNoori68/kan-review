@@ -1,4 +1,9 @@
 # kan-review
+A structured companion to our [KAN review paper](Link) will update the link later.
+
+Focuses on regression, function approximation, and PDE solving,
+while remaining relevant to other KAN applications.
+
 
 ## Quick Nav
 
@@ -44,7 +49,7 @@
 | Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability | [Hou](https://arxiv.org/abs/2407.11075) |
 
 ---
-## 2.  Representative Repositories
+## 2.  Representative Repositories (for regression, function approximation, and PDE solving)
 
 | Repository | Description |
 |-------------|-------------|
