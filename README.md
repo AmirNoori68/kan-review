@@ -127,8 +127,8 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | Residual physics + sparse regression (variable-coeff. PDEs). | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | -|
 | Self-scaled residual reweighting (ssRBA). | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 | Augmented-Lagrangian PINN–KAN (learnable multipliers). | [pde_Zhang24] | [Paper](https://doi.org/10.1038/s41598-025-92900-1) | - |
-| Velocity–vorticity loss for turbulence reconstruction. | [Toscano25_aivt] | [Paper](https://doi.org/10.1126/sciadv.ads5236) |-|
-| Fractional/integro-diff. operators in KAN. | [Aghaei24_kantorol] | [Paper](https://arxiv.org/abs/2409.06649) | -|
+| Velocity–vorticity loss for turbulence reconstruction. | [Toscano25_aivt] | [Paper](https://doi.org/10.1126/sciadv.ads5236) | - |
+| Fractional/integro-diff. operators in KAN. | [Aghaei24_kantorol] | [Paper](https://arxiv.org/abs/2409.06649) | - |
 
 ### 7.2 Adaptive Sampling & Grids
 
@@ -167,11 +167,11 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| FlashKAT: group-rational KAN blocks in Transformers. | [Raffel25] | [Paper](link) | - |
-| GINN-KAN: interpretable growth + KAN in PINNs. | [pde_Ranasinghe24] | [Paper](link) | - |
-| KAN-ODE: KAN as $\dot u$ model (adjoint training). | [pde_Koeing24] | [Paper](link) | - |
-| AAKAN-WGAN: adaptive KAN + GAN for data augmentation. | [Shen25] | [Paper](link) | - |
-| Attention-KAN-PINN for battery SOH forecasting. | [Wei26_battery] | [Paper](link) | - |
+| FlashKAT: group-rational KAN blocks in Transformers. | [Raffel25] | [Paper](https://arxiv.org/abs/2505.13813) | - |
+| GINN-KAN: interpretable growth + KAN in PINNs. | [pde_Ranasinghe24] | [Paper](https://arxiv.org/abs/2408.14780) | - |
+| KAN-ODE: KAN as $\dot u$ model (adjoint training). | [pde_Koeing24] | [Paper](https://arxiv.org/abs/2407.04192) | - |
+| AAKAN-WGAN: adaptive KAN + GAN for data augmentation. | [Shen25] | [Paper](https://doi.org/10.1016/j.mtcomm.2025.113198) | - |
+| Attention-KAN-PINN for battery SOH forecasting. | [Wei26_battery] | [Paper](https://doi.org/10.1016/j.eswa.2025.128969) | - |
 
 ### 7.7 Discontinuities & Sharp Gradients
 
@@ -179,19 +179,19 @@ Each table lists only the **core** items (1–2 line description + links). For f
 |---|---|---|---|
 | SincKAN for kinks/boundary layers. | [Yu24] | [Paper](https://arxiv.org/abs/2410.04096) | [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
 | rKAN (rational bases) for asymptotics/jumps. | [Aghaei24_rkan] | [Paper](https://arxiv.org/abs/2406.14495) | [Code](https://github.com/alirezaafzalaghaei/rKAN) |
-| DKAN: $\tanh$ jump gate + spline background. | [Lei25] | [Paper](link) | - |
-| KINN for singularities/stress concentrations. | [pde_Wang24] | [Paper](link) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
-| Two-phase PINN–KAN for saturation fronts. | [Kalesh25] | [Paper](link) | - |
+| DKAN: $\tanh$ jump gate + spline background. | [Lei25] | [Paper](https://arxiv.org/abs/2507.08338) | - |
+| KINN for singularities/stress concentrations. | [pde_Wang24] | [Paper](https://doi.org/10.1016/j.cma.2024.117518) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
+| Two-phase PINN–KAN for saturation fronts. | [Kalesh25] | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-97596-7_30) | - |
 
 ### 7.8 Optimization & Adaptive Training
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Adam/RAdam warmup → (L-)BFGS refinement. | [Mostajeran25], [Daryakenari25], [KAN_pde_Zeng24] | [Paper](https://arxiv.org/abs/2504.07379) | - |
-| Hybrid optimizers for sharp fronts. | [Kalesh25] | [Paper](link) | - |
-| Bayesian hyperparameter tuning for KANs. | [Lin25_geo] | [Paper](link) | - |
-| Bayesian PINN–KAN (variational + KL) for UQ. | [pde_bayesian_Giroux24] | [Paper](link) | - |
-| NTK perspective: conditioning ↔ convergence. | [Faroughi25] | [Paper](link) | - |
+| Adam/RAdam warmup → (L-)BFGS refinement. | [Mostajeran25], [Daryakenari25], [KAN_pde_Zeng24] | [Paper](https://arxiv.org/abs/2501.02762) [Paper](https://arxiv.org/abs/2504.07379) [Paper](https://arxiv.org/abs/2408.07906)| - |
+| Hybrid optimizers for sharp fronts. | [Kalesh25] | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-97596-7_30) | - |
+| Bayesian hyperparameter tuning for KANs. | [Lin25_geo] | [Paper](https://doi.org/10.1016/j.jrmge.2025.02.023) | - |
+| Bayesian PINN–KAN (variational + KL) for UQ. | [pde_bayesian_Giroux24] | [Paper](https://arxiv.org/abs/2410.01687) | [Code](https://github.com/wmdataphys/Bayesian-HR-KAN) |
+| NTK perspective: conditioning ↔ convergence. | [Faroughi25] | [Paper](https://arxiv.org/abs/2506.07958) | - |
 
 
 ---
@@ -202,11 +202,11 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| ReLU^m activations replace splines (CUDA-friendly). | [Qiu25] | [Paper](link) | [Code](https://github.com/Iri-sated/PowerMLP) |
-| Spline→matmul CUDA kernels (GEMM fusion). | [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) |
-| Matrix B-spline evaluation fused on GPU. | [Coffman25] | [Paper](link) | [Code](https://github.com/OSU-STARLAB/MatrixKAN) |
+| ReLU^m activations replace splines (CUDA-friendly). | [Qiu25] | [Paper](https://arxiv.org/abs/2412.13571) | [Code](https://github.com/Iri-sated/PowerMLP) |
+| Spline→matmul CUDA kernels (GEMM fusion). | [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2406.02075) [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) |
+| Matrix B-spline evaluation fused on GPU. | [Coffman25] | [Paper](https://arxiv.org/abs/2502.07176) | [Code](https://github.com/OSU-STARLAB/MatrixKAN) |
 | Dual-matrix merge + trainable RFF for scaling. | [Zhang25] | [Paper](https://arxiv.org/abs/2502.06018) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
-| Custom GPU backward for KAN attention blocks. | [Raffel25] | [Paper](link) | - |
+| Custom GPU backward for KAN attention blocks. | [Raffel25] | [Paper](https://arxiv.org/abs/2505.13813) | - |
 | Parallel KAN ∥ MLP branches (stream/layer parallelism). | [Xu25] | [Paper](https://arxiv.org/abs/2503.23289) | - |
 | Domain decomposition parallelism (multi-GPU, PoU/separable). | [KAN_pde_Shukla24], [pde_fbkan_Howard24], [pde_jacob24] | [Paper](https://arxiv.org/abs/2406.02917) [paper](https://arxiv.org/abs/2406.19662) [Paper](https://arxiv.org/abs/2411.06286)| [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
 | JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari25], [pde_Rigas24] | [Paper](https://arxiv.org/abs/2407.17611) [Paper](https://arxiv.org/abs/2504.07379) | [Code](https://github.com/srigas/jaxKAN) |
@@ -215,15 +215,15 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| ReLU-power vs B-splines: fewer params, vectorized polynomials. | [Qiu25], [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/kelvinhkcs/HRKAN)|
-| Orthogonal polynomials with cheap recurrences. | [KAN_pde_Shukla24], [Guo24], [Mostajeran24], [Mostajeran25], [pde_Wang24] | [Paper](https://arxiv.org/abs/2406.02917) | [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
-| Compact RBF bases (local Gaussians). | [Lin25_geo], [pde_Koeing24] | [Paper](link) | - |
-| Wavelets for multi-resolution and sparse coeffs. | [pde_Patra24] | [Paper](link) | - |
+| ReLU-power vs B-splines: fewer params, vectorized polynomials. | [Qiu25], [Qiu24], [KAN_pde_So24] | [Paper](https://arxiv.org/abs/2412.13571) [Paper](https://arxiv.org/abs/2406.02075) [Paper](https://arxiv.org/abs/2409.14248) | [Code](https://github.com/quiqi/relu_kan) [Code](https://github.com/kelvinhkcs/HRKAN)|
+| Orthogonal polynomials with cheap recurrences. | [KAN_pde_Shukla24], [Guo24], [Mostajeran24], [Mostajeran25], [pde_Wang24] | [Paper](https://arxiv.org/abs/2406.02917) [Paper](https://arxiv.org/abs/2410.10897) [Paper](https://doi.org/10.1016/j.cma.2024.117518) [Paper](https://arxiv.org/abs/2501.02762)| [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
+| Compact RBF bases (local Gaussians). | [Lin25_geo], [pde_Koeing24] | [Paper](https://doi.org/10.1016/j.jrmge.2025.02.023) [Paper](https://arxiv.org/abs/2407.04192) | - |
+| Wavelets for multi-resolution and sparse coeffs. | [pde_Patra24] | [Paper](https://arxiv.org/abs/2407.18373) | - |
 | Dual-matrix + RFF compression to cut memory traffic. | [Zhang25] | [Paper](https://arxiv.org/abs/2502.06018) | [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
-| Sparsity regularization (ℓ1/group) with pruning. | [Guo25] | [Paper](link) | - |
+| Sparsity regularization (ℓ1/group) with pruning. | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | - |
 | Hierarchical channel-wise refinement (shared params). | [Actor25] | [Paper](https://arxiv.org/abs/2505.18131) | - |
-| DEKAN: connectivity via Differential Evolution. | [Li25_DEKAN] | [Paper](link) | - |
-| Mix spectral (derivatives) + spatial (coeffs) sparsity for operators. | [Lee25_operator] | [Paper](link) | - |
+| DEKAN: connectivity via Differential Evolution. | [Li25_DEKAN] | [Paper](https://doi.org/10.1109/CEC65147.2025.11043029) | - |
+| Mix spectral (derivatives) + spatial (coeffs) sparsity for operators. | [Lee25_operator] | [Paper](https://arxiv.org/abs/2509.16825) | - |
 
 
 
@@ -239,14 +239,14 @@ Each table lists only the **core** items (1–2 line description + links). For f
 | EfficientKAN: direct ℓ1 on weights (simple, practical). | [EfficientKAN] | [Paper](link) | [Code](https://github.com/Blealtan/efficient-kan) |
 | Sparse symbolic discovery with ℓ1 + entropy. | [Wang25] | [Paper](link) | - |
 | PDE KAN: ℓ1 + smoothness penalty to denoise coefficients. | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | - |
-| Post-training pruning with layerwise ℓ1. | [pde_Koeing24] | [Paper](link) | - |
+| Post-training pruning with layerwise ℓ1. | [pde_Koeing24] | [Paper](https://arxiv.org/abs/2407.04192) | - |
 | KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler25_regression] | [Paper](https://arxiv.org/abs/2509.10089) | - |
 
 ### 9.2 ℓ2 weight decay and extensions
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| AAKAN: ℓ2 + temporal smoothing + MI regularizer. | [Shen25] | [Paper](link) | - |
+| AAKAN: ℓ2 + temporal smoothing + MI regularizer. | [Shen25] | [Paper](https://doi.org/10.1016/j.mtcomm.2025.113198) | - |
 | Small ℓ2 (e.g., 1e−5) improves stability in PINNs/DeepOKAN. | [KAN_pde_Shukla24], [Toscano25_aivt] | [Paper](https://arxiv.org/abs/2406.02917) [paper](https://doi.org/10.1126/sciadv.ads5236) | - |
 
 ### 9.3 Implicit and dropout-style regularizers
