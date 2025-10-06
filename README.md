@@ -91,6 +91,9 @@ while remaining relevant to other KAN applications.
 | [zavareh1/Wav-KAN](https://github.com/zavareh1/Wav-KAN) | Wavelet-based KANs. | 
 | [Jim137/qkan](https://github.com/Jim137/qkan) | Quantum-inspired KAN variants and pruning. | 
 | [liouvill/KAN-Converge](https://github.com/liouvill/KAN-Converge) | Additive & hybrid KANs for convergence-rate experiments. | 
+| [hoangthangta/BSRBF_KAN](https://github.com/hoangthangta/BSRBF_KAN) | Combines B-spline and RBF bases. |
+| [wmdataphys/Bayesian-HR-KAN](https://github.com/wmdataphys/Bayesian-HR-KAN) | Bayesian higher-order ReLU-KANs with uncertainty quantification. |
+
 
 
 ---
