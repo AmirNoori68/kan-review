@@ -91,7 +91,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Name | Support | Equation | Grid | Type | Citation | Paper | Code |
 |---|---|---|---|---|---|---|---|
-| B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu24] | [Paper](link) | [Code](https://github.com/KindXiaoming/pykan) |
+| B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu24] | [Paper](https://arxiv.org/abs/2404.19756) [Paper](https://arxiv.org/abs/2408.10205) | [Code](https://github.com/KindXiaoming/pykan) |
 | Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [SS24] | [Paper](https://arxiv.org/abs/2405.07200) | - |
 | Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head | [Daryakenari25] | [Paper](https://arxiv.org/abs/2504.07379) | - |
 | Chebyshev (grid) | Global | $\sum_k c_kT_k\Big(\tfrac{1}{m}\sum_i \tanh(w_i x+b_i)\Big)$ | Yes | Chebyshev + tanh | [Toscano24_kkan] | [Paper](https://arxiv.org/abs/2412.16738) | [Code](https://github.com/jdtoscano94/KKANs_PIML) |
@@ -235,9 +235,9 @@ Each table lists only the **core** items (1–2 line description + links). For f
 
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| Layerwise ℓ1 on edge activations + entropy balance. | [Liu24] | [Paper](link) | - |
-| EfficientKAN: direct ℓ1 on weights (simple, practical). | [EfficientKAN] | [Paper](link) | [Code](https://github.com/Blealtan/efficient-kan) |
-| Sparse symbolic discovery with ℓ1 + entropy. | [Wang25] | [Paper](link) | - |
+| Layerwise ℓ1 on edge activations + entropy balance. | [Liu24] | [Paper](https://arxiv.org/abs/2404.19756) | [Code](https://github.com/KindXiaoming/pykan) |
+| EfficientKAN: direct ℓ1 on weights (simple, practical). | [EfficientKAN] | - | [Code](https://github.com/Blealtan/efficient-kan) |
+| Sparse symbolic discovery with ℓ1 + entropy. | [Wang25] | [Paper](https://arxiv.org/abs/2410.01803) | - |
 | PDE KAN: ℓ1 + smoothness penalty to denoise coefficients. | [Guo25] | [Paper](https://doi.org/10.1016/j.physd.2025.134689) | - |
 | Post-training pruning with layerwise ℓ1. | [pde_Koeing24] | [Paper](https://arxiv.org/abs/2407.04192) | - |
 | KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler25_regression] | [Paper](https://arxiv.org/abs/2509.10089) | - |
@@ -271,7 +271,7 @@ Each table lists only the **core** items (1–2 line description + links). For f
 ### 10.2 Optimization Dynamics & Spectral Bias
 | Brief result | Citation | Paper | Code |
 |---|---|---|---|
-| NTK view: learnable bases flatten spectra; less spectral bias than MLP. | [Gao25] | [Paper](link) | — |
+| NTK view: learnable bases flatten spectra; less spectral bias than MLP. | [Gao25] | [Paper](https://arxiv.org/abs/2410.08041) | — |
 | Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea25_BasisComp] | [Paper](https://github.com/afrah/pinn_learnable_activation) | — |
 | KAN vs MLP: earlier capture of high frequencies under NTK dynamics. | [Wang25] | [Paper](https://arxiv.org/abs/2410.01803) | — |
 
