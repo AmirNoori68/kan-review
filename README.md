@@ -105,7 +105,7 @@
 ## 4. Basis Functions
 
 | Name | Support | Equation | Grid | Type |  Paper , Code |
-|---|---|---|---|---|---|
+|---|---|---|---|---|------|
 | B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu](https://arxiv.org/abs/2404.19756) & [Liu](https://arxiv.org/abs/2408.10205) , [Code](https://github.com/KindXiaoming/pykan) |
 | Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [Sidharth](https://arxiv.org/abs/2405.07200) | 
 | Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head  | [Daryakenari](https://arxiv.org/abs/2504.07379) |
