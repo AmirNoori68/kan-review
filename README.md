@@ -115,7 +115,7 @@ while remaining relevant to other KAN applications.
 | Name | Support | Equation | Grid | Type |  Paper , Code |
 |---|---|---|---|---|------|
 | B-spline | Local | $\sum_n c_nB_n(x)$ | Yes | B-spline | [Liu](https://arxiv.org/abs/2404.19756) & [Liu](https://arxiv.org/abs/2408.10205) , [Code](https://github.com/KindXiaoming/pykan) |
-| Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [Sidharth](https://arxiv.org/abs/2405.07200) | 
+| Chebyshev | Global | $\sum_k c_kT_k(\tanh x)$ | No | Chebyshev + tanh | [Sidharth](https://arxiv.org/abs/2405.07200) , [Code](https://github.com/sidhu2690/Deep-KAN/tree/main/DEEP-KAN-pypi) & [Code](https://github.com/SynodicMonth/ChebyKAN)| 
 | Stabilized Chebyshev | Global | $\tanh\big(\sum_k c_kT_k(\tanh x)\big)$ | No | Chebyshev + linear head  | [Daryakenari](https://arxiv.org/abs/2504.07379) |
 | Chebyshev (grid) | Global | $\sum_k c_kT_k\Big(\tfrac{1}{m}\sum_i \tanh(w_i x+b_i)\Big)$ | Yes | Chebyshev + tanh | [Toscano](https://arxiv.org/abs/2412.16738) , [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 | ReLU-KAN | Local | $\sum_i w_iR_i(x)$ | Yes | Squared ReLU | [Qiu](https://arxiv.org/abs/2406.02075) , [Code](https://github.com/quiqi/relu_kan) |
