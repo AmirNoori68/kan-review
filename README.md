@@ -129,13 +129,11 @@ while remaining relevant to other KAN applications.
 | Jacobi-KAN | Global | $\sum_i c_iP_i(\tanh x)$ | No | Jacobi + tanh  | [Kashefi](https://arxiv.org/abs/2408.02950) , [Code](https://github.com/Ali-Stanford/KAN_PointNet_CFD) &  [Shukla](https://doi.org/10.1016/j.cma.2024.117290) & [Xiong](https://doi.org/10.1016/j.cnsns.2025.109414) & [Zhang](https://doi.org/10.1016/j.eswa.2025.129839) , [Code](https://github.com/zhang-zhuo001/Legend-KINN)|
 | FourierKAN | Global | $\sum_k a_k\cos(kx)+b_k\sin(kx)$ | No | Fourier |  [Xu](https://arxiv.org/abs/2406.01034v3) , [Code](https://github.com/Jinfeng-Xu/FKAN-GCF) & [Code](https://github.com/YihongDong/FAN) & [Guo](https://doi.org/10.1007/s00477-025-03105-x) &  [Jiang](https://doi.org/10.48550/arXiv.2509.14026) , [Code](https://github.com/Jim137/qkan)|
 | KAF | Global | $\alpha\mathrm{GELU}(x)+\sum_j \beta_j\psi_j(x)$ | No | Random Fourier + GELU | [Zhang](https://arxiv.org/abs/2502.06018) , [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
-| Gaussian (FastKAN) | Local | $\sum_i w_i\exp\Big(-\big(\tfrac{x-g_i}{\varepsilon}\big)^2\Big)$ | Yes | Gaussian RBF  | [Li](https://arxiv.org/abs/2405.06721) , [Code](https://github.com/ZiyaoLi/fast-kan) 
- [Lee](https://doi.org/10.1109/JAS.2022.105743)  & [Abueidda](https://doi.org/10.1016/j.cma.2024.117699) , [Code](https://github.com/DiabAbu/Dee) & [Koenig](https://doi.org/10.1016/j.neunet.2025.107883) , [Code](https://github.com/DENG-MIT/LeanKAN) & [Ta](https://arxiv.org/abs/2406.11173) , [Code](https://github.com/hoangthangta/BSRBF_KAN) & [Buhler](https://arxiv.org/abs/2509.10089) |
+| Gaussian (FastKAN) | Local | $\sum_i w_i\exp\Big(-\big(\tfrac{x-g_i}{\varepsilon}\big)^2\Big)$ | Yes | Gaussian RBF  | [Li](https://arxiv.org/abs/2405.06721) , [Code](https://github.com/ZiyaoLi/fast-kan) & [Lee](https://doi.org/10.1109/JAS.2022.105743)  & [Abueidda](https://doi.org/10.1016/j.cma.2024.117699) , [Code](https://github.com/DiabAbu/Dee) & [Koenig](https://doi.org/10.1016/j.neunet.2025.107883) , [Code](https://github.com/DENG-MIT/LeanKAN) & [Ta](https://arxiv.org/abs/2406.11173) , [Code](https://github.com/hoangthangta/BSRBF_KAN) & [Buhler](https://arxiv.org/abs/2509.10089) |
 | RSWAF-KAN | Local | $\sum_i w_i\left(s_i-\tanh^2\big(\tfrac{x-c_i}{h_i}\big)\right)$ | Yes | Switch ($tanh^2$)  |  [Athanasios](https://github.com/AthanasiosDelis/faster-kan) |
 | CVKAN | Local | $\sum_{u,v} w_{uv}\exp\big(-\lvert z-g_{uv}\rvert^2\big)$ | Yes | Complex Gaussian | [Wolff](https://arxiv.org/abs/2502.02417) , [Code](https://github.com/M-Wolff/CVKAN) & [Che](https://doi.org/10.1007/978-3-032-05176-9_34)|
 | BSRBF-KAN | Local | $\sum_i a_i B_i(x)+\sum_j b_j\exp\big(-\tfrac{(x-g_j)^2}{\varepsilon^2}\big)$ | Yes | B-spline + Gaussian | [Ta](https://arxiv.org/abs/2406.11173) , [Code](https://github.com/hoangthangta/BSRBF_KAN) |
-| Wav-KAN | Local | $\sum_{j,k} c_{j,k}\psi\big(\tfrac{x-u_{j,k}}{s_j}\big)$ | No | Wavelet | [Bozorgasl](https://arxiv.org/abs/2405.12832) , [Code](https://github.com/zavareh1/Wav-KAN}{zavareh1/Wav-KAN) 
- & [Patra](https://arxiv.org/abs/2407.18373) & [Pratyush](https://doi.org/10.1093/bioinformatics/btaf124) & [Seydi](https://arxiv.org/abs/2406.07869)|
+| Wav-KAN | Local | $\sum_{j,k} c_{j,k}\psi\big(\tfrac{x-u_{j,k}}{s_j}\big)$ | No | Wavelet | [Bozorgasl](https://arxiv.org/abs/2405.12832) , [Code](https://github.com/zavareh1/Wav-KAN}{zavareh1/Wav-KAN) & [Patra](https://arxiv.org/abs/2407.18373) & [Pratyush](https://doi.org/10.1093/bioinformatics/btaf124) & [Seydi](https://arxiv.org/abs/2406.07869)|
 | FBKAN | Local | $\sum_j \omega_j(x)K_j(x)$ | Yes | PoU + B-spline |  [Howard](https://arxiv.org/abs/2406.19662) , [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
 | SincKAN | Global | $\sum_{i=-N}^{N} c_i\mathrm{sinc}\left(\frac{\pi}{h}(x - i h)\right)$ | Yes | Sinc | [Yu](https://arxiv.org/abs/2410.04096) , [Code](https://github.com/DUCH714/SincKAN}{DUCH714/SincKAN) |
 | Poly-KAN | Global | $\sum_i w_iP_i(x)$ | No | Polynomial | [Seydi](https://arxiv.org/abs/2406.02583) , [Code](https://github.com/seydi1370/Basis_Functions) |
@@ -246,7 +244,7 @@ while remaining relevant to other KAN applications.
 |---|---|
 | ReLU-power vs B-splines: fewer params, vectorized polynomials.  | [Qiu](https://arxiv.org/abs/2412.13571) , [Code](https://github.com/Iri-sated/PowerMLP) & [Qiu](https://arxiv.org/abs/2406.02075) , [Code](https://github.com/quiqi/relu_kan) & [So](https://arxiv.org/abs/2409.14248) , [Code](https://github.com/kelvinhkcs/HRKAN)|
 | Orthogonal polynomials with cheap recurrences. | [Shukla](https://arxiv.org/abs/2406.02917) & [Guo](https://arxiv.org/abs/2411.04516) & [Mostajeran](https://arxiv.org/abs/2410.10897) &  [Mostajeran](https://arxiv.org/abs/2501.02762) & [Wang](https://doi.org/10.1016/j.cma.2024.117518) ,  [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
-| Compact RBF bases (local Gaussians).  | [Lin](https://doi.org/10.1016/j.jrmge.2025.02.023) & [Koeing](https://arxiv.org/abs/2407.04192) | 
+| Compact RBF bases (local Gaussians).  | [Lin](https://doi.org/10.1016/j.jrmge.2025.02.023) & [Koeing](https://arxiv.org/abs/2407.04192) , [Code](https://github.com/DENG-MIT/LeanKAN)| 
 | Wavelets for multi-resolution and sparse coeffs.  | [Patra](https://arxiv.org/abs/2407.18373) | 
 | Dual-matrix + RFF compression to cut memory traffic.  | [Zhang](https://arxiv.org/abs/2502.06018) , [Code](https://github.com/kolmogorovArnoldFourierNetwork/KAF) |
 | Sparsity regularization (ℓ1/group) with pruning. | [Guo](https://doi.org/10.1016/j.physd.2025.134689) | 
@@ -268,7 +266,7 @@ while remaining relevant to other KAN applications.
 | EfficientKAN: direct ℓ1 on weights (simple, practical). |  [EfficientKAN](https://github.com/Blealtan/efficient-kan) |
 | Sparse symbolic discovery with ℓ1 + entropy. | [Wang](https://arxiv.org/abs/2410.01803) |
 | PDE KAN: ℓ1 + smoothness penalty to denoise coefficients. | [Guo](https://doi.org/10.1016/j.physd.2025.134689) | 
-| Post-training pruning with layerwise ℓ1. | [Koeing](https://arxiv.org/abs/2407.04192) |
+| Post-training pruning with layerwise ℓ1. | [Koeing](https://arxiv.org/abs/2407.04192) , [Code](https://github.com/DENG-MIT/LeanKAN)|
 | KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler](https://arxiv.org/abs/2509.10089) |
 
 ### 7.2 ℓ2 weight decay and extensions
