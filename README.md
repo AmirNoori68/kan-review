@@ -1,5 +1,5 @@
 # kan-review
-A structured companion to our [KAN review paper](Link) will update the link later.
+A structured companion to our [KAN review paper](Link) (will update the link).
 
 Focuses on regression, function approximation, and PDE solving,
 while remaining relevant to other KAN applications.
