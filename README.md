@@ -93,6 +93,7 @@ while remaining relevant to other KAN applications.
 | [liouvill/KAN-Converge](https://github.com/liouvill/KAN-Converge) | Additive & hybrid KANs for convergence-rate experiments. | 
 | [hoangthangta/BSRBF_KAN](https://github.com/hoangthangta/BSRBF_KAN) | Combines B-spline and RBF bases. |
 | [wmdataphys/Bayesian-HR-KAN](https://github.com/wmdataphys/Bayesian-HR-KAN) | Bayesian higher-order ReLU-KANs with uncertainty quantification. |
+| [zhang-zhuo001/Legend-KINN](https://github.com/zhang-zhuo001/Legend-KINN) | Legendre polynomial–based KAN for efficient PDE solving. |
 
 
 
