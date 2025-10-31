@@ -1,5 +1,5 @@
 # kan-review
-A structured companion to our [KAN review paper](Link) (will update the link).
+A structured companion to our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks).
 
 Focuses on regression, function approximation, and PDE solving,
 while remaining relevant to other KAN applications.
