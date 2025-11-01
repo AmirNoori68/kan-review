@@ -16,8 +16,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 
 
 ## 📖 Citation
-
-If you use or refer to this work, please cite both the paper and the companion GitHub repository:
+Paper and repository reference information:
 
 ```bibtex
 @misc{GuideToKAN, 
