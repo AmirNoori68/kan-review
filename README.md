@@ -8,7 +8,7 @@ We welcome corrections and contributions — if you find any missing or misattri
 | Reference, Code | Focus | Novelty / Key Contribution |
 |------------|--------|-----------------------------|
 | [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
-| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Introduces SPIKAN, which applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
+| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
 
 
 ## 📖 Citation
@@ -126,6 +126,7 @@ If you use or refer to this work, please cite both the paper and the companion G
 | [zhang-zhuo001/Legend-KINN](https://github.com/zhang-zhuo001/Legend-KINN) | Legendre polynomial–based KAN for efficient PDE solving. |
 | [DiabAbu/DeepOKAN](https://github.com/DiabAbu/DeepOKAN) | Deep Operator Network based on KAN. |
 | [DENG-MIT/LeanKAN](https://github.com/DENG-MIT/LeanKAN) | A memory-efficient Kolmogorov–Arnold Network. |
+| [PNNL/SPIKANs](https://github.com/pnnl/spikans) | A Separation-of-variables to decompose high-dimensional PDEs into smaller KANs. |
 
 
 
