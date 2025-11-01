@@ -3,7 +3,7 @@ A structured companion to our [KAN review paper](https://www.researchgate.net/pu
 
 We **welcome corrections and contributions** — if you find any missing or misattributed references, kindly contact amir_noori@hkbu.edu.hk so they can be added in the next GitHub update and preprint revision.
 
-## 📘 Upcoming Reference Additions
+## Coming in the Next Update
 
 | Reference, Code | Focus | Novelty / Key Contribution |
 |------------|--------|-----------------------------|
