@@ -13,7 +13,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 | [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
 | [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer KAN — the Kolmogorov’s Spline Network — using adaptive cubic spline activations [[Polar]](http://openkan.org/). |
 | [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
-| [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow KAN using B‑splines to realize the Kolmogorov–Arnold form; shows universal approximation and explores catastrophic forgetting with pseudo‑rehearsal mitigation. |
+| [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
 
 
 
