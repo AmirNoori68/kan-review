@@ -5,9 +5,11 @@ We welcome corrections and contributions — if you find any missing or misattri
 
 ## 📘 Upcoming Reference Additions
 
-| Reference | Focus | Novelty / Key Contribution |
+| Reference, Code | Focus | Novelty / Key Contribution |
 |------------|--------|-----------------------------|
 | [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
+| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Introduces SPIKAN, which applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
+
 
 ## 📖 Citation
 
