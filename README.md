@@ -1,7 +1,8 @@
 # kan-review
 A structured companion to our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks).
 
-We **welcome corrections and contributions** — if you find any missing or misattributed references, kindly contact amir_noori@hkbu.edu.hk so they can be added in the next GitHub update and preprint revision.
+We **welcome corrections, discussions, and new contributions** — The updates below come from recent communications with researchers and newly released studies.  
+If you notice any missing or misattributed references, kindly contact [amir_noori@hkbu.edu.hk](mailto:amir_noori@hkbu.edu.hk) so they can be added in the next GitHub update and preprint revision.
 
 ## Coming in the Next Update
 
