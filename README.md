@@ -3,7 +3,36 @@ A structured companion to our [KAN review paper](https://www.researchgate.net/pu
 
 We welcome corrections and contributions — if you find any missing or misattributed references, kindly contact amir_noori@hkbu.edu.hk so they can be added in the next GitHub update and preprint revision.
 
+## 📘 Upcoming Reference Additions
 
+| Reference | Focus | Novelty / Key Contribution |
+|------------|--------|-----------------------------|
+| [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
+
+## 📖 Citation
+
+If you use or refer to this work, please cite both the paper and the companion GitHub repository:
+
+```bibtex
+@misc{GuideToKAN, 
+  title     = {A Practitioner's Guide to Kolmogorov-Arnold Networks}, 
+  author    = {Amir Noorizadegan and Sifan Wang and Leevan Ling},
+  year      = {2025},
+  eprint    = {2510.25781},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url       = {https://arxiv.org/abs/2510.25781}
+}
+
+@misc{GuideToKAN_GitHub,
+  author    = {Amir Noorizadegan},
+  title     = {KAN Review: Companion Repository for "A Practitioner's Guide to Kolmogorov-Arnold Networks"},
+  year      = {2025},
+  howpublished = {\url{https://github.com/AmirNoori68/kan-review}},
+  note      = {Accessed: 2025-11-01}
+}
+```
+---
 ## Quick Nav
 
 1. Review and Survey Papers on KANs  
