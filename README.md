@@ -1,8 +1,7 @@
 # kan-review
 A structured companion to our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks).
 
-Focuses on regression, function approximation, and PDE solving,
-while remaining relevant to other KAN applications.
+We welcome corrections and contributions — if you find any missing or misattributed references, kindly contact amir_noori@hkbu.edu.hk so they can be added in the next GitHub update and preprint revision.
 
 
 ## Quick Nav
