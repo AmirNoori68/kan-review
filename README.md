@@ -12,6 +12,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 | [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
 | [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
 | [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | Introduces the Kolmogorov’s Spline Network, the first shallow one-hidden-layer KAN using adaptive cubic spline activations [[Polar]](http://openkan.org/). |
+| [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm for constructing full Kolmogorov–Arnold representations—functionally deep but not layer-stacked like modern deep KANs. |
 
 
 
