@@ -133,6 +133,7 @@ Paper and repository reference information:
 | [DiabAbu/DeepOKAN](https://github.com/DiabAbu/DeepOKAN) | Deep Operator Network based on KAN. |
 | [DENG-MIT/LeanKAN](https://github.com/DENG-MIT/LeanKAN) | A memory-efficient Kolmogorov–Arnold Network. |
 | [PNNL/SPIKANs](https://github.com/pnnl/spikans) | A Separation-of-variables to decompose high-dimensional PDEs into smaller KANs. |
+| [openkan.org](http://openkan.org/) | Features a non-spline KAN trained via Newton–Kaczmarz. |
 
 
 
