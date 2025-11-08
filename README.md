@@ -15,7 +15,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 | [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
 | [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
 | [Poluektov](https://doi.org/10.1007/s10994-025-06800-6) , [Code](https://github.com/andrewpolar/RidgeIdentM) | Optimization | A shallow KAN with Newton–Kaczmarz training algorithm and parallelized implementation. |
-
+[Clafa](https://arxiv.org/abs/2507.22678) , [Code](https://github.com/teocala/pihnn)| Architecture / Accuracy | Introduces a holomorphic KAN with complex polynomial basis for solving elasticity problems. |
 
 
 
