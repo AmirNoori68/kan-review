@@ -4,22 +4,36 @@ A structured companion to our [KAN review paper](https://www.researchgate.net/pu
 We **welcome corrections, discussions, and new contributions** — The updates below come from recent communications with researchers and newly released studies.  
 If you notice any missing or misattributed references, kindly contact [amir_noori@hkbu.edu.hk](mailto:amir_noori@hkbu.edu.hk) so they can be added in the next GitHub update and preprint revision.
 
-## Coming in the Next Update
+## Quick Nav
+1. Citation
+2. Updates
+3. Review and Survey Papers on KANs  
+4. Representative Repositories  
+5. Bridging KANs and MLPs  
+6. Basis Functions  
+7. Accuracy Improvement  
+   - 7.1 Physics & Loss Design  
+   - 7.2 Adaptive Sampling & Grids  
+   - 7.3 Domain Decomposition  
+   - 7.4 Function Decomposition  
+   - 7.5 Hybrid / Ensemble & Data  
+   - 7.6 Sequence / Attention Hybrids  
+   - 7.7 Discontinuities & Sharp Gradients  
+   - 7.8 Optimization & Adaptive Training  
+8. Efficiency Improvement  
+   - 8.1 Parallelism, GPU, and JAX Engineering  
+   - 8.2 Matrix Optimization & Parameter-Efficient Bases  
+9. Sparsity & Regularization  
+   - 9.1 ℓ1 Sparsity with Entropy Balancing  
+   - 9.2 ℓ2 Weight Decay and Extensions  
+   - 9.3 Implicit and Dropout-Style Regularizers  
+10. Convergence & Scaling Laws  
+   - 10.1 Approximation & Sample Complexity  
+   - 10.2 Optimization Dynamics & Spectral Bias  
+   - 10.3 Empirical Power Laws  
+---
 
-| Reference, Code | Focus | Novelty / Key Contribution |
-|------------|--------|-----------------------------|
-| [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
-| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
-| [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
-| [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN [[Polar]](http://openkan.org/). |
-| [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
-| [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
-| [Poluektov](https://doi.org/10.1007/s10994-025-06800-6) , [Code](https://github.com/andrewpolar/RidgeIdentM) | Optimization | A shallow KAN with Newton–Kaczmarz training algorithm and parallelized implementation. |
-[Clafa](https://arxiv.org/abs/2507.22678) , [Code](https://github.com/teocala/pihnn)| Architecture / Accuracy | Introduces a complex-analytic KAN with polynomial basis for solving elasticity problems. |
-
-
-
-## 📖 Citation
+## 1.  Citation
 Paper and repository reference information:
 
 ```bibtex
@@ -42,35 +56,22 @@ Paper and repository reference information:
 }
 ```
 ---
-## Quick Nav
+## 2.  Coming in the Next Update
 
-1. Review and Survey Papers on KANs  
-2. Representative Repositories  
-3. Bridging KANs and MLPs  
-4. Basis Functions  
-5. Accuracy Improvement  
-   - 5.1 Physics & Loss Design  
-   - 5.2 Adaptive Sampling & Grids  
-   - 5.3 Domain Decomposition  
-   - 5.4 Function Decomposition  
-   - 5.5 Hybrid / Ensemble & Data  
-   - 5.6 Sequence / Attention Hybrids  
-   - 5.7 Discontinuities & Sharp Gradients  
-   - 5.8 Optimization & Adaptive Training  
-6. Efficiency Improvement  
-   - 6.1 Parallelism, GPU, and JAX Engineering  
-   - 6.2 Matrix Optimization & Parameter-Efficient Bases  
-7. Sparsity & Regularization  
-   - 7.1 ℓ1 Sparsity with Entropy Balancing  
-   - 7.2 ℓ2 Weight Decay and Extensions  
-   - 7.3 Implicit and Dropout-Style Regularizers  
-8. Convergence & Scaling Laws  
-   - 8.1 Approximation & Sample Complexity  
-   - 8.2 Optimization Dynamics & Spectral Bias  
-   - 8.3 Empirical Power Laws  
+| Reference, Code | Focus | Novelty / Key Contribution |
+|------------|--------|-----------------------------|
+| [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
+| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
+| [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
+| [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN [[Polar]](http://openkan.org/). |
+| [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
+| [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
+| [Poluektov](https://doi.org/10.1007/s10994-025-06800-6) , [Code](https://github.com/andrewpolar/RidgeIdentM) | Optimization | A shallow KAN with Newton–Kaczmarz training algorithm and parallelized implementation. |
+[Clafa](https://arxiv.org/abs/2507.22678) , [Code](https://github.com/teocala/pihnn)| Architecture / Accuracy | Introduces a complex-analytic KAN with polynomial basis for solving elasticity problems. |
 
 ---
-## 1.  Review and Survey Papers on KANs
+
+## 3.  Review and Survey Papers on KANs
 
 | Title |  Paper | 
 |---|---|
@@ -86,7 +87,7 @@ Paper and repository reference information:
 | Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability | [Hou](https://arxiv.org/abs/2407.11075) |
 
 ---
-## 2.  Representative Repositories (for regression, function approximation, and PDE solving)
+## 4.  Representative Repositories (for regression, function approximation, and PDE solving)
 
 | Repository | Description |
 |-------------|-------------|
@@ -139,7 +140,7 @@ Paper and repository reference information:
 
 
 ---
-## 3. Bridging KANs and MLPs
+## 5. Bridging KANs and MLPs
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -152,7 +153,7 @@ Paper and repository reference information:
 ---
 
 
-## 4. Basis Functions
+## 6. Basis Functions
 
 | Name | Support | Equation | Grid | Type |  Paper , Code |
 |---|---|---|---|---|------|
@@ -180,9 +181,9 @@ Paper and repository reference information:
 
 ---
 
-## 5. Accuracy Improvement
+## 7. Accuracy Improvement
 
-### 5.1 Physics & Loss Design
+### 7.1 Physics & Loss Design
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -196,7 +197,7 @@ Paper and repository reference information:
 | Fractional/integro-diff. operators in KAN. | [Aghaei](https://arxiv.org/abs/2409.06649) | 
 | Physics-informed KAN for high-index DAEs (dual-network structure). | [Lou](https://arxiv.org/abs/2504.15806) |
 
-### 5.2 Adaptive Sampling & Grids
+### 7.2 Adaptive Sampling & Grids
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -206,14 +207,14 @@ Paper and repository reference information:
 | Residual-adaptive sampling (RAD). | [Rigas](https://doi.org/10.21105/joss.07830) , [Code](https://github.com/srigas/jaxKAN) |
 | Multi-resolution sampling schedule for cPIKAN.  | [Yang](https://arxiv.org/abs/2507.19888) | 
 
-### 5.3 Domain Decomposition
+### 7.3 Domain Decomposition
 
 | Brief result | Paper , Code |
 |---|---|
 | Finite-basis KAN (FBKAN) with PoU blending of local KANs. | [Howard](https://arxiv.org/abs/2406.19662) , [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) |
 | Temporal subdomains to improve NTK conditioning. | [Faroughi](https://arxiv.org/abs/2506.07958) | 
 
-### 5.4 Function Decomposition
+### 7.4 Function Decomposition
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -221,7 +222,7 @@ Paper and repository reference information:
 | Separable PIKAN (sum of products of 1D KAN factors). | [Jacob](https://arxiv.org/abs/2411.06286) , [Code](https://github.com/pnnl/spikans)|
 | KAN-SR: recursive simplification for symbolic discovery.  | [Buhler](https://arxiv.org/abs/2509.10089) | 
 
-### 5.5 Hybrid / Ensemble & Data
+### 7.5 Hybrid / Ensemble & Data
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -229,7 +230,7 @@ Paper and repository reference information:
 | Parallel KAN ∥ MLP branches with learnable fusion. | [Xu](https://arxiv.org/abs/2503.23289) | 
 | KKAN: per-dim MLP features + explicit basis expansion. | [Toscano](https://arxiv.org/abs/2412.16738) , [Code](https://github.com/jdtoscano94/KKANs_PIML) |
 
-### 5.6 Sequence / Attention Hybrids
+### 7.6 Sequence / Attention Hybrids
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -239,7 +240,7 @@ Paper and repository reference information:
 | AAKAN-WGAN: adaptive KAN + GAN for data augmentation.  | [Shen](https://doi.org/10.1016/j.mtcomm.2025.113198) | 
 | Attention-KAN-PINN for battery SOH forecasting. | [Wei](https://doi.org/10.1016/j.eswa.2025.128969) | 
 
-### 5.7 Discontinuities & Sharp Gradients
+### 7.7 Discontinuities & Sharp Gradients
 
 | Brief result  | Paper , Code | 
 |---|---|
@@ -249,7 +250,7 @@ Paper and repository reference information:
 | KINN for singularities/stress concentrations.  | [Wang](https://doi.org/10.1016/j.cma.2024.117518) , [Code](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) |
 | Two-phase PINN–KAN for saturation fronts.  | [Kalesh](https://link.springer.com/chapter/10.1007/978-3-031-97596-7_30) | 
 
-### 5.8 Optimization & Adaptive Training
+### 7.8 Optimization & Adaptive Training
 
 | Brief result  | Paper , Code | 
 |---|---|
@@ -262,9 +263,9 @@ Paper and repository reference information:
 
 ---
 
-## 6. Efficiency Improvement
+## 8. Efficiency Improvement
 
-### 6.1 Parallelism, GPU, and JAX Engineering
+### 8.1 Parallelism, GPU, and JAX Engineering
 
 | Brief result | Paper , Code | 
 |---|---|
@@ -277,7 +278,7 @@ Paper and repository reference information:
 | Domain decomposition parallelism (multi-GPU, PoU/separable). |  [Shukla](https://arxiv.org/abs/2406.02917) & [Howard](https://arxiv.org/abs/2406.19662) , [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) & [Jacob](https://arxiv.org/abs/2411.06286) , [Code](https://github.com/pnnl/spikans)| 
 | JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari](https://arxiv.org/abs/2407.17611) & [Rigas](https://doi.org/10.21105/joss.07830) , [Code](https://github.com/srigas/jaxKAN) | - |
 
-### 6.2 Matrix Optimization & Parameter-Efficient Bases
+### 8.2 Matrix Optimization & Parameter-Efficient Bases
 
 | Brief result | Paper , Code |
 |---|---|
@@ -295,9 +296,9 @@ Paper and repository reference information:
 
 ---
 
-## 7. Sparsity & Regularization
+## 9. Sparsity & Regularization
 
-### 7.1 ℓ1 sparsity with entropy balancing
+### 9.1 ℓ1 sparsity with entropy balancing
 
 | Brief result | Paper , Code |
 |---|---|
@@ -308,14 +309,14 @@ Paper and repository reference information:
 | Post-training pruning with layerwise ℓ1. | [Koeing](https://arxiv.org/abs/2407.04192) , [Code](https://github.com/DENG-MIT/LeanKAN)|
 | KAN-SR: magnitude + entropy at subunit level (+ℓ1 on bases). | [Buhler](https://arxiv.org/abs/2509.10089) |
 
-### 7.2 ℓ2 weight decay and extensions
+### 9.2 ℓ2 weight decay and extensions
 
 | Brief result | Paper , Code | 
 |---|---|
 | AAKAN: ℓ2 + temporal smoothing + MI regularizer. | [Shen](https://doi.org/10.1016/j.mtcomm.2025.113198) | 
 | Small ℓ2 (e.g., 1e−5) improves stability in PINNs/DeepOKAN. | [Shukla](https://arxiv.org/abs/2406.02917) & [Toscano](https://doi.org/10.1126/sciadv.ads5236) | 
 
-### 7.3 Implicit and dropout-style regularizers
+### 9.3 Implicit and dropout-style regularizers
 
 | Brief result  | Paper , Code |
 |---|---|
@@ -325,23 +326,23 @@ Paper and repository reference information:
 
 ---
 
-## 8. Convergence & Scaling Laws (KAN/PIKAN only)
+## 10. Convergence & Scaling Laws (KAN/PIKAN only)
 
-### 8.1 Approximation & Sample Complexity
+### 10.1 Approximation & Sample Complexity
 
 | Brief result | Paper , Code | 
 |---|---|
 | Depth-rate $L^{-2s/d}$ for spline KAN (fixed width, $G = 2$). |  [Wang](https://arxiv.org/abs/2410.01803) | 
 | Minimax sample rate for spline KANs; additive case is dimension-free. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) |
 
-### 8.2 Optimization Dynamics & Spectral Bias
+### 10.2 Optimization Dynamics & Spectral Bias
 | Brief result | Paper , Code |
 |---|---|
 | NTK view: learnable bases flatten spectra; less spectral bias than MLP.  | [Gao](https://arxiv.org/abs/2410.08041) | 
 | Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea](https://github.com/afrah/pinn_learnable_activation) | 
 | KAN vs MLP: earlier capture of high frequencies under NTK dynamics. |  [Wang](https://arxiv.org/abs/2410.01803) | 
 
-### 8.3 Empirical Power Laws
+### 10.3 Empirical Power Laws
 
 | Brief result | Paper , Code | 
 |---|---|
