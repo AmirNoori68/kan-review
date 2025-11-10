@@ -339,7 +339,7 @@ Paper and repository reference information:
 | Brief result | Paper , Code |
 |---|---|
 | NTK view: learnable bases flatten spectra; less spectral bias than MLP.  | [Gao](https://arxiv.org/abs/2410.08041) | 
-| Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea](https://github.com/afrah/pinn_learnable_activation) | 
+| Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
 | KAN vs MLP: earlier capture of high frequencies under NTK dynamics. |  [Wang](https://arxiv.org/abs/2410.01803) | 
 
 ### 10.3 Empirical Power Laws
