@@ -63,7 +63,7 @@ Paper and repository reference information:
 | [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
 | [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
 | [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
-| [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN [[Polar]](http://openkan.org/). |
+| [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN. |
 | [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
 | [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
 | [Poluektov](https://doi.org/10.1007/s10994-025-06800-6) , [Code](https://github.com/andrewpolar/RidgeIdentM) | Optimization | A shallow KAN with Newton–Kaczmarz training algorithm and parallelized implementation. |
