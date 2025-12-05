@@ -60,7 +60,7 @@ Paper and repository reference information:
 
 | Reference, Code | Focus | Novelty / Key Contribution |
 |------------|--------|-----------------------------|
-| [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
+| [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) , [Code](https://github.com/Aqasch/KANQAS_code) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
 | [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
 | [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
 | [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN. |
