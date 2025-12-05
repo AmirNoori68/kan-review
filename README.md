@@ -291,6 +291,7 @@ Paper and repository reference information:
 | Hierarchical channel-wise refinement (shared params). | [Actor](https://arxiv.org/abs/2505.18131) | 
 | DEKAN: connectivity via Differential Evolution. | [Li](https://doi.org/10.1109/CEC65147.2025.11043029) | 
 | Mix spectral (derivatives) + spatial (coeffs) sparsity for operators. | [Lee](https://arxiv.org/abs/2509.16825) | 
+| Tensor sweeps + selective differentiation for scalable high-D PDEs. | [Menon](https://doi.org/10.1016/j.cma.2025.118403) , [Code](https://github.com/ParamIntelligence/Anant-Net) |
 
 
 
