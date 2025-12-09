@@ -28,9 +28,10 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
    - [9.2 ℓ2 Weight Decay and Extensions](#92-ℓ2-weight-decay-and-extensions)
    - [9.3 Implicit and Dropout-Style Regularizers](#93-implicit-and-dropout-style-regularizers)
 10. [Convergence & Scaling Laws](#10-convergence--scaling-laws-kanpikan-only)
-   - [10.1 Approximation & Sample Complexity](#101-approximation--sample-complexity)
-   - [10.2 Optimization Dynamics & Spectral Bias](#102-optimization-dynamics--spectral-bias)
-   - [10.3 Empirical Power Laws](#103-empirical-power-laws)
+    - [10.1 Approximation & Sample Complexity](#101-approximation--sample-complexity)
+    - [10.2 Optimization Dynamics & Spectral Bias](#102-optimization-dynamics--spectral-bias)
+    - [10.3 Empirical Power Laws](#103-empirical-power-laws)
+
 
 
 ---
