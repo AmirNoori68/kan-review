@@ -60,7 +60,7 @@ Paper and repository reference information:
 ```
 ---
 ## 2.  Kolmogorov Superposition Theorem (KST) and Its Refinement Toward Neural Networks  
-*More detailed explanations and citations are provided in our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks)..*
+*More detailed explanations and citations are provided in our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks).*
 | Year | Reference | Key Contribution |
 |------|-----------|------------------|
 | 1900 | [Hilbert](https://www.math.uni-goettingen.de/historisches/hilbert/problems.html) | Poses Hilbert's 13th problem |
@@ -94,6 +94,7 @@ Paper and repository reference information:
 
 | Title |  Paper | 
 |---|---|
+|A Practitioner's Guide to Kolmogorov-Arnold Networks|[Noorizadegan]((https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks))|
 | The first two months of Kolmogorov-Arnold Networks (KANs): A survey of the state-of-the-art |  [Dutta](https://link.springer.com/content/pdf/10.1007/s11831-025-10328-2.pdf) |
 | KAT to KANs: A review of Kolmogorov–Arnold Networks and the neural leap forward | [Basina](https://arxiv.org/abs/2411.10622) |
 | Scientific machine learning with Kolmogorov–Arnold Networks | [Faroughi](https://arxiv.org/abs/2507.22959) |
