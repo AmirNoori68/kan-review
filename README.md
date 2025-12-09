@@ -136,6 +136,14 @@ Paper and repository reference information:
 | [DENG-MIT/LeanKAN](https://github.com/DENG-MIT/LeanKAN) | A memory-efficient Kolmogorov–Arnold Network. |
 | [PNNL/SPIKANs](https://github.com/pnnl/spikans) | A Separation-of-variables to decompose high-dimensional PDEs into smaller KANs. |
 | [openkan.org](http://openkan.org/) | Features a non-spline KAN trained via Newton–Kaczmarz. |
+| [ParamIntelligence/Anant-Net](https://github.com/ParamIntelligence/Anant-Net) | High-dimensional PDE solver with tensor sweeps. |
+| [srigas/RGA-KANs](https://github.com/srigas/RGA-KANs) | Deep cPIKANs with variance-preserving initialization. |
+| [schwallergroup/lmkan](https://github.com/schwallergroup/lmkan) | Lookup-based KAN for fast high-dimensional mappings. |
+| [srigas/KAN_Initialization_Schemes](https://github.com/srigas/KAN_Initialization_Schemes) | Initialization schemes for spline-based KANs. |
+| [.../mlp-kan](https://github.com/geoelements-dev/mlp-kan) | KAN vs. MLP for PDEs in DeepONet/GNS frameworks. |
+| [.../KANQAS_code](https://github.com/Aqasch/KANQAS_code) | KANQAS: KAN for quantum architecture search. |
+| [.../pkan](https://github.com/andrewpolar/pkan) | Probabilistic KAN via divisive data re-sorting. |
+| [.../spikans](https://github.com/pnnl/spikans) | Separable PIKAN (SPIKAN) for high-dimensional PDEs. |
 
 
 
