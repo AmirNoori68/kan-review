@@ -6,7 +6,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 
 ## Quick Nav
 1. [Citation](#1-citation)
-2. [History of Kolmogorov Superposition Theorem](#2-history-of-kolmogorov-superposition-theorem)
+2. [Kolmogorov Superposition Theorem (KST) and Its Refinement Toward Neural Networks](#2-kolmogorov-superposition-theorem-kst-and-its-refinement-toward-neural-networks)
 3. [Review and Survey Papers on KANs](#3-review-and-survey-papers-on-kans)
 4. [Representative Repositories](#4-representative-repositories-for-regression-function-approximation-and-pde-solving)
 5. [Bridging KANs and MLPs](#5-bridging-kans-and-mlps)
@@ -59,7 +59,8 @@ Paper and repository reference information:
 }
 ```
 ---
-## 2.  History of Kolmogorov Superposition Theorem
+## 2.  Kolmogorov Superposition Theorem (KST) and Its Refinement Toward Neural Networks  
+*More detailed explanations and citations are provided in the main paper.*
 | Year | Reference | Key Contribution |
 |------|-----------|------------------|
 | 1900 | [Hilbert](https://www.math.uni-goettingen.de/historisches/hilbert/problems.html) | Poses Hilbert's 13th problem |
