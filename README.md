@@ -392,8 +392,8 @@ Paper and repository reference information:
 | Learnable bases widen NTK spectra; trade off between reach and curvature. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
 | Gradient-flow convergence guarantees for two-layer KANs. | [Gao](https://arxiv.org/abs/2410.08041) | 
 | NTK conditioning strongly affects PDE convergence. | [Gao](https://arxiv.org/abs/2410.08041) | 
-| Chebyshev/cPIKAN maintain better NTK conditioning for PDEs. | Faroughi 2025 (https://arxiv.org/abs/2506.07958) |
-| Initialization schemes improve NTK stability. | Rigas et al. (2025) |
+| Chebyshev/cPIKAN maintain better NTK conditioning for PDEs. | [Faroughi 2025](https://arxiv.org/abs/2506.07958) |
+| Initialization schemes improve NTK stability. | [Rigas 2025](https://www.arxiv.org/abs/2510.23501) , [Code](https://github.com/srigas/RGA-KANs) |
 | Wide spectra increase curvature; risk of instability. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
 
 
@@ -404,7 +404,7 @@ Paper and repository reference information:
 | Depth/grid refinement matches theoretical convergence trends. | [Wang](https://arxiv.org/abs/2410.01803) |
 | Scaling behavior influenced by optimization, not just expressivity. | [Kratsios 2025](https://arxiv.org/abs/2504.15110v1) |
 | Minimax results align: grid resolution drives learning efficiency. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) | 
-| Power-law patterns observed across PDE benchmarks. | [Faroughi 2025](https://arxiv.org/abs/2506.07958)) |
+| Power-law patterns observed across PDE benchmarks. | [Faroughi 2025](https://arxiv.org/abs/2506.07958) |
 
 ---
 
