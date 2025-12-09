@@ -86,7 +86,7 @@ Paper and repository reference information:
 | 2003 | [Igelnik–Parikh](https://doi.org/10.1109/TNN.2003.813830) | Kolmogorov Spline Network (KSN): trainable spline-based inner/outer functions |
 | 2009 | [Braun–Griebel](https://doi.org/10.1007/s00365-009-9054-2) | First **correct constructive** KST; repairs Sprecher’s scheme |
 | 2019 | [Actor–Knepley](https://arxiv.org/abs/1712.08286) | Proves **\(C^1\) inner functions impossible**; smoothness obstruction |
-| 2024 | [Liu et al.](https://arxiv.org/abs/2404.19756) | Introduces **KAN**, the first deep architecture inspired by the Kolmogorov–Arnold representation |
+| 2024 | [Liu](https://arxiv.org/abs/2404.19756) | Introduces **KAN**, the first deep architecture inspired by the Kolmogorov–Arnold representation |
 
 ---
 
