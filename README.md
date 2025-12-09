@@ -388,10 +388,9 @@ Paper and repository reference information:
 ### 10.2 Optimization Dynamics & Spectral Bias
 | Brief result | Paper |
 |-------------|--------|
-| KANs show reduced spectral bias vs. MLPs; faster high-frequency learning. | [Wang](https://arxiv.org/abs/2410.01803) | 
-| Learnable bases widen NTK spectra; trade off between reach and curvature. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
+| KANs show reduced spectral bias vs. MLPs; faster high-frequency learning. | [Wang 2025](https://arxiv.org/abs/2410.01803) | 
+| Learnable bases widen NTK spectra; trade off between reach and curvature. | [Farea 2025](https://doi.org/10.1016/j.cpc.2025.109753) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
 | Gradient-flow convergence guarantees for two-layer KANs. | [Gao](https://arxiv.org/abs/2410.08041) | 
-| NTK conditioning strongly affects PDE convergence. | [Gao](https://arxiv.org/abs/2410.08041) | 
 | Chebyshev/cPIKAN maintain better NTK conditioning for PDEs. | [Faroughi 2025](https://arxiv.org/abs/2506.07958) |
 | Initialization schemes improve NTK stability. | [Rigas 2025](https://www.arxiv.org/abs/2510.23501) , [Code](https://github.com/srigas/RGA-KANs) |
 | Wide spectra increase curvature; risk of instability. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
