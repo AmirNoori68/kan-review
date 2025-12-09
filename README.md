@@ -5,10 +5,10 @@ We **welcome corrections, discussions, and new contributions** — The updates b
 If you notice any missing or misattributed references, kindly contact [amir_noori@hkbu.edu.hk](mailto:amir_noori@hkbu.edu.hk) so they can be added in the next GitHub update and preprint revision.
 
 ## Quick Nav
-1. [Citation](#1--citation)
-2. [History of Kolmogorov Superposition Theorem](#2--history-of-kolmogorov-superposition-theorem)
+1. [Citation](#1-citation)
+2. [History of Kolmogorov Superposition Theorem](#2-history-of-kolmogorov-superposition-theorem)
 3. [Review and Survey Papers on KANs](#3-review-and-survey-papers-on-kans)
-4. [Representative Repositories](#4--representative-repositories-for-regression-function-approximation-and-pde-solving)
+4. [Representative Repositories](#4-representative-repositories-for-regression-function-approximation-and-pde-solving)
 5. [Bridging KANs and MLPs](#5-bridging-kans-and-mlps)
 6. [Basis Functions](#6-basis-functions)
 7. [Accuracy Improvement](#7-accuracy-improvement)
@@ -24,13 +24,14 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
    - [8.1 Parallelism, GPU, and JAX Engineering](#81-parallelism-gpu-and-jax-engineering)
    - [8.2 Matrix Optimization & Parameter-Efficient Bases](#82-matrix-optimization--parameter-efficient-bases)
 9. [Sparsity & Regularization](#9-sparsity--regularization)
-   - [9.1 ℓ1 sparsity with entropy balancing](#91-ℓ1-sparsity-with-entropy-balancing)
-   - [9.2 ℓ2 weight decay and extensions](#92-ℓ2-weight-decay-and-extensions)
-   - [9.3 Implicit and dropout-style regularizers](#93-implicit-and-dropout-style-regularizers)
+   - [9.1 ℓ1 Sparsity with Entropy Balancing](#91-ℓ1-sparsity-with-entropy-balancing)
+   - [9.2 ℓ2 Weight Decay and Extensions](#92-ℓ2-weight-decay-and-extensions)
+   - [9.3 Implicit and Dropout-Style Regularizers](#93-implicit-and-dropout-style-regularizers)
 10. [Convergence & Scaling Laws](#10-convergence--scaling-laws-kanpikan-only)
    - [10.1 Approximation & Sample Complexity](#101-approximation--sample-complexity)
    - [10.2 Optimization Dynamics & Spectral Bias](#102-optimization-dynamics--spectral-bias)
    - [10.3 Empirical Power Laws](#103-empirical-power-laws)
+
 
 ---
 
