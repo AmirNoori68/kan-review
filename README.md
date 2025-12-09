@@ -284,7 +284,22 @@ Paper and repository reference information:
 | Custom GPU backward for KAN attention blocks. |  [Raffel](https://arxiv.org/abs/2505.13813) |
 | Parallel KAN ∥ MLP branches (stream/layer parallelism). |  [Xu](https://arxiv.org/abs/2503.23289) | 
 | Domain decomposition parallelism (multi-GPU, PoU/separable). |  [Shukla](https://arxiv.org/abs/2406.02917) & [Howard](https://arxiv.org/abs/2406.19662) , [Code](https://github.com/pnnl/neuromancer/tree/feature/fbkans) & [Jacob](https://arxiv.org/abs/2411.06286) , [Code](https://github.com/pnnl/spikans)| 
-| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari](https://arxiv.org/abs/2407.17611) & [Rigas](https://doi.org/10.21105/joss.07830) , [Code](https://github.com/srigas/jaxKAN) | - |
+| JAX/XLA: `jit`/`vmap`/`pmap`, fusion, memory-aware. | [Daryakenari](https://arxiv.org/abs/2407.17611) & [Rigas](https://doi.org/10.21105/joss.07830) , [Code](https://github.com/srigas/jaxKAN) | 
+| lmKANs: multivariate spline lookup tables, CUDA-friendly. | [Michalkiewicz](https://arxiv.org/abs/2503.04057) , [Code]() |
+
+
+| Brief result | Paper , Code |
+|---|---|
+| ReLU^m activations replace splines (CUDA-friendly). | [Qiu](https://arxiv.org/abs/2412.13571) , [Code]() |
+| Spline→matmul CUDA kernels (GEMM fusion). | [Qiu](https://arxiv.org/abs/2406.02075) , [Code]() & [So](https://arxiv.org/abs/2409.14248) , [Code]() |
+| Matrix B-spline evaluation fused on GPU. | [Coffman](https://arxiv.org/abs/2502.07176) , [Code]() |
+| Dual-matrix merge + trainable RFF for scaling. | [Zhang](https://arxiv.org/abs/2502.06018) , [Code]() |
+| Custom GPU backward for KAN attention blocks. | [Raffel](https://arxiv.org/abs/2505.13813) , [Code]() |
+| Parallel KAN ∥ MLP branches (stream/layer parallelism). | [Xu](https://arxiv.org/abs/2503.23289) , [Code]() |
+| Domain decomposition parallelism (multi-GPU, PoU/separable). | [Shukla](https://arxiv.org/abs/2406.02917) & [Howard](https://arxiv.org/abs/2406.19662) , [Code]() & [Jacob](https://arxiv.org/abs/2411.06286) , [Code]() |
+| JAX/XLA acceleration: `jit`, `vmap`, `pmap`, fusion. | [Daryakenari](https://arxiv.org/abs/2407.17611) & [Rigas](https://doi.org/10.21105/joss.07830) , [Code]() |
+| lmKANs: multivariate spline lookup tables, CUDA-friendly. | [Pozdnyakov 2025](https://arxiv.org/abs/2509.07103) , [Code](https://github.com/schwallergroup/lmkan) |
+
 
 ### 8.2 Matrix Optimization & Parameter-Efficient Bases
 
@@ -299,7 +314,8 @@ Paper and repository reference information:
 | Hierarchical channel-wise refinement (shared params). | [Actor](https://arxiv.org/abs/2505.18131) | 
 | DEKAN: connectivity via Differential Evolution. | [Li](https://doi.org/10.1109/CEC65147.2025.11043029) | 
 | Mix spectral (derivatives) + spatial (coeffs) sparsity for operators. | [Lee](https://arxiv.org/abs/2509.16825) | 
-| Tensor sweeps + selective differentiation for scalable high-D PDEs. | [Menon](https://doi.org/10.1016/j.cma.2025.118403) , [Code](https://github.com/ParamIntelligence/Anant-Net) |
+| Tensor sweeps + selective differentiation for scalable high-D PDEs. | [Sidharth](https://doi.org/10.1016/j.cma.2025.118403) , [Code](https://github.com/ParamIntelligence/Anant-Net) |
+| Operator-aware spectral–spatial mixing for near-diagonal matvecs. | [Lee](https://arxiv.org/abs/2509.16825) |
 
 
 
