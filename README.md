@@ -376,25 +376,35 @@ Paper and repository reference information:
 
 ### 10.1 Approximation & Sample Complexity
 
-| Brief result | Paper , Code | 
-|---|---|
-| Depth-rate $L^{-2s/d}$ for spline KAN (fixed width, $G = 2$). |  [Wang](https://arxiv.org/abs/2410.01803) | 
-| Minimax sample rate for spline KANs; additive case is dimension-free. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) |
+| Brief result | Paper |
+|-------------|--------|
+| Depth-based convergence rate for spline KANs. | [Wang](https://arxiv.org/abs/2410.01803) | 
+| Optimal Besov approximation; dimension-free sample complexity. | [Kratsios 2025](https://arxiv.org/abs/2504.15110v1) |
+| Minimax statistical rates for additive & hybrid KANs; optimal knot scaling. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) |
+| Generalization bounds via RKHS and coefficient/Lipschitz complexity. | [Zhang 2024](https://arxiv.org/abs/2410.08026) |
+| Lipschitz-controlled layers improve stability and generalization. | [Li 2025](https://openreview.net/forum?id=b387eWFV3V) |
+
 
 ### 10.2 Optimization Dynamics & Spectral Bias
-| Brief result | Paper , Code |
-|---|---|
-| NTK view: learnable bases flatten spectra; less spectral bias than MLP.  | [Gao](https://arxiv.org/abs/2410.08041) | 
-| Basis/grid enrichment widens NTK spectrum; speeds high-freq learning. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
-| KAN vs MLP: earlier capture of high frequencies under NTK dynamics. |  [Wang](https://arxiv.org/abs/2410.01803) | 
+| Brief result | Paper |
+|-------------|--------|
+| KANs show reduced spectral bias vs. MLPs; faster high-frequency learning. | [Wang](https://arxiv.org/abs/2410.01803) | 
+| Learnable bases widen NTK spectra; trade off between reach and curvature. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
+| Gradient-flow convergence guarantees for two-layer KANs. | [Gao](https://arxiv.org/abs/2410.08041) | 
+| NTK conditioning strongly affects PDE convergence. | [Gao](https://arxiv.org/abs/2410.08041) | 
+| Chebyshev/cPIKAN maintain better NTK conditioning for PDEs. | Faroughi 2025 (https://arxiv.org/abs/2506.07958) |
+| Initialization schemes improve NTK stability. | Rigas et al. (2025) |
+| Wide spectra increase curvature; risk of instability. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
+
 
 ### 10.3 Empirical Power Laws
-
-| Brief result | Paper , Code | 
-|---|---|
-| Error follows $\ell \propto P^{-\alpha}$; increasing grid $G$ boosts accuracy. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) | 
-| Depth (via dyadic grids) improves accuracy consistent with theory. | [Wang](https://arxiv.org/abs/2410.01803) |
-
+| Brief result | Paper |
+|-------------|--------|
+| KAN error follows consistent power-law decay; grid refinement improves accuracy. |  [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) | 
+| Depth/grid refinement matches theoretical convergence trends. | [Wang](https://arxiv.org/abs/2410.01803) |
+| Scaling behavior influenced by optimization, not just expressivity. | [Kratsios 2025](https://arxiv.org/abs/2504.15110v1) |
+| Minimax results align: grid resolution drives learning efficiency. | [Liu](https://arxiv.org/abs/2509.19830) , [Code](https://github.com/liouvill/KAN-Converge) | 
+| Power-law patterns observed across PDE benchmarks. | [Faroughi 2025](https://arxiv.org/abs/2506.07958)) |
 
 ---
 
