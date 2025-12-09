@@ -7,7 +7,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 ## Quick Nav
 1. [Citation](#1--citation)
 2. [History of Kolmogorov Superposition Theorem](#2--history-of-kolmogorov-superposition-theorem)
-3. [Review and Survey Papers on KANs](#3--review-and-survey-papers-on-kans)
+3. [Review and Survey Papers on KANs](#3-review-and-survey-papers-on-kans)
 4. [Representative Repositories](#4--representative-repositories-for-regression-function-approximation-and-pde-solving)
 5. [Bridging KANs and MLPs](#5-bridging-kans-and-mlps)
 6. [Basis Functions](#6-basis-functions)
