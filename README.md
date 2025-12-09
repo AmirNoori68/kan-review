@@ -91,55 +91,55 @@ Paper and repository reference information:
 
 | Repository | Description |
 |-------------|-------------|
-| [KindXiaoming/pykan](https://github.com/KindXiaoming/pykan) | Official PyKAN for “KAN” and “KAN 2.0”. | 
-| [afrah/pinn_learnable_activation](https://github.com/afrah/pinn_learnable_activation) | Compares various KAN bases vs. MLP on PDEs. | 
-| [1ssb/torchkan](https://github.com/1ssb/torchkan) | Simplified PyTorch KAN with multiple variants. | 
-| [mintisan/awesome-kan](https://github.com/mintisan/awesome-kan) | Curated list of KAN resources, projects, and papers. | 
-| [sidhu2690/Deep-KAN](https://github.com/sidhu2690/Deep-KAN) | Spline-KAN examples and PyPI package. | 
-| [sidhu2690/RBF-KAN](https://github.com/sidhu2690/RBF-KAN) | Gaussian RBF-based KAN implementation. | 
-| [yu-rp/KANbeFair](https://github.com/yu-rp/KANbeFair) | Fair benchmarking of KANs vs. MLPs. | 
-| [Blealtan/efficient-kan](https://github.com/Blealtan/efficient-kan) | Efficient PyTorch implementation of KAN. | 
-| [srigas/jaxKAN](https://github.com/srigas/jaxKAN) | JAX-based KAN with grid extension support. | 
-| [ZiyaoLi/fast-kan](https://github.com/ZiyaoLi/fast-kan) | FastKAN using RBFs for acceleration. | 
-| [AthanasiosDelis/faster-kan](https://github.com/AthanasiosDelis/faster-kan) | Uses reflectional switch activations. |
-| [Indoxer/LKAN](https://github.com/Indoxer/LKAN) | Lightweight KAN variants and experiments. | 
-| [pnnl/neuromancer (fbkans branch)](https://github.com/pnnl/neuromancer/tree/feature/fbkans) | Partition of unity (FBKAN) for PDE solving. | 
-| [quiqi/relu_kan](https://github.com/quiqi/relu_kan) | Minimal ReLU-KAN example. | 
-| [OSU-STARLAB/MatrixKAN](https://github.com/OSU-STARLAB/MatrixKAN) | Matrix-parallelized KAN implementation. | 
-| [Iri-sated/PowerMLP](https://github.com/Iri-sated/PowerMLP) | MLP-type network with KAN-level expressiveness. | 
-| [GistNoesis/FourierKAN](https://github.com/GistNoesis/FourierKAN) | Fourier-based KAN layer. | 
-| [GistNoesis/FusedFourierKAN](https://github.com/GistNoesis/FusedFourierKAN) | Optimized FourierKAN with fused GPU kernels. |
-| [alirezaafzalaghaei/fKAN](https://github.com/alirezaafzalaghaei/fKAN) | Fractional KAN using Jacobi functions. | 
-| [alirezaafzalaghaei/rKAN](https://github.com/alirezaafzalaghaei/rKAN) | Rational KAN (Padé/Jacobi rational designs). | 
-| [M-Wolff/CVKAN](https://github.com/M-Wolff/CVKAN) | Complex-valued KANs. | 
-| [DUCH714/SincKAN](https://github.com/DUCH714/SincKAN) | Sinc-based KAN for PINN applications. |
-| [SynodicMonth/ChebyKAN](https://github.com/SynodicMonth/ChebyKAN) | Chebyshev polynomial-based KAN. | 
-| [Boris-73-TA/OrthogPolyKANs](https://github.com/Boris-73-TA/OrthogPolyKANs) | Orthogonal polynomial-based KAN implementations. |
-| [kolmogorovArnoldFourierNetwork/kaf_act](https://github.com/kolmogorovArnoldFourierNetwork/kaf_act) | RFF-based activation library. | 
-| [kolmogorovArnoldFourierNetwork/KAF](https://github.com/kolmogorovArnoldFourierNetwork/KAF) | Kolmogorov–Arnold Fourier Networks. | 
-| [kelvinhkcs/HRKAN](https://github.com/kelvinhkcs/HRKAN) | Higher-order ReLU-KANs. | 
-| [yizheng-wang/KINN](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) | PIKAN for solid mechanics PDEs. | 
-| [Ali-Stanford/KAN_PointNet_CFD](https://github.com/Ali-Stanford/KAN_PointNet_CFD) | Jacobi-based KAN for CFD predictions. | 
-| [Jinfeng-Xu/FKAN-GCF](https://github.com/Jinfeng-Xu/FKAN-GCF) | FourierKAN-GCF for graph filtering. | 
-| [jdtoscano94/KKANs_PIML](https://github.com/jdtoscano94/KKANs_PIML) | Kurkova-KANs combining MLP with basis functions. | 
-| [Zhangyanbo/MLP-KAN](https://github.com/Zhangyanbo/MLP-KAN) | MLP-augmented KAN activations. | 
-| [Adamdad/kat](https://github.com/Adamdad/kat) | Kolmogorov–Arnold Transformer. | 
-| [YihongDong/FAN](https://github.com/YihongDong/FAN) | Fourier Analysis Network (FAN). |
-| [seydi1370/Basis_Functions](https://github.com/seydi1370/Basis_Functions) | Polynomial bases for KANs. | 
-| [zavareh1/Wav-KAN](https://github.com/zavareh1/Wav-KAN) | Wavelet-based KANs. | 
-| [Jim137/qkan](https://github.com/Jim137/qkan) | Quantum-inspired KAN variants and pruning. | 
-| [liouvill/KAN-Converge](https://github.com/liouvill/KAN-Converge) | Additive & hybrid KANs for convergence-rate experiments. | 
-| [hoangthangta/BSRBF_KAN](https://github.com/hoangthangta/BSRBF_KAN) | Combines B-spline and RBF bases. |
-| [wmdataphys/Bayesian-HR-KAN](https://github.com/wmdataphys/Bayesian-HR-KAN) | Bayesian higher-order ReLU-KANs with uncertainty quantification. |
-| [zhang-zhuo001/Legend-KINN](https://github.com/zhang-zhuo001/Legend-KINN) | Legendre polynomial–based KAN for efficient PDE solving. |
-| [DiabAbu/DeepOKAN](https://github.com/DiabAbu/DeepOKAN) | Deep Operator Network based on KAN. |
-| [DENG-MIT/LeanKAN](https://github.com/DENG-MIT/LeanKAN) | A memory-efficient Kolmogorov–Arnold Network. |
-| [PNNL/SPIKANs](https://github.com/pnnl/spikans) | A Separation-of-variables to decompose high-dimensional PDEs into smaller KANs. |
+| [.../pykan](https://github.com/KindXiaoming/pykan) | Official PyKAN for “KAN” and “KAN 2.0”. | 
+| [.../pinn_learnable_activation](https://github.com/afrah/pinn_learnable_activation) | Compares various KAN bases vs. MLP on PDEs. | 
+| [.../torchkan](https://github.com/1ssb/torchkan) | Simplified PyTorch KAN with multiple variants. | 
+| [.../awesome-kan](https://github.com/mintisan/awesome-kan) | Curated list of KAN resources, projects, and papers. | 
+| [.../Deep-KAN](https://github.com/sidhu2690/Deep-KAN) | Spline-KAN examples and PyPI package. | 
+| [.../RBF-KAN](https://github.com/sidhu2690/RBF-KAN) | Gaussian RBF-based KAN implementation. | 
+| [.../KANbeFair](https://github.com/yu-rp/KANbeFair) | Fair benchmarking of KANs vs. MLPs. | 
+| [.../efficient-kan](https://github.com/Blealtan/efficient-kan) | Efficient PyTorch implementation of KAN. | 
+| [.../jaxKAN](https://github.com/srigas/jaxKAN) | JAX-based KAN with grid extension support. | 
+| [.../fast-kan](https://github.com/ZiyaoLi/fast-kan) | FastKAN using RBFs for acceleration. | 
+| [.../faster-kan](https://github.com/AthanasiosDelis/faster-kan) | Uses reflectional switch activations. |
+| [.../LKAN](https://github.com/Indoxer/LKAN) | Lightweight KAN variants and experiments. | 
+| [.../neuromancer (fbkans branch)](https://github.com/pnnl/neuromancer/tree/feature/fbkans) | Partition of unity (FBKAN) for PDE solving. | 
+| [.../relu_kan](https://github.com/quiqi/relu_kan) | Minimal ReLU-KAN example. | 
+| [.../MatrixKAN](https://github.com/OSU-STARLAB/MatrixKAN) | Matrix-parallelized KAN implementation. | 
+| [.../PowerMLP](https://github.com/Iri-sated/PowerMLP) | MLP-type network with KAN-level expressiveness. | 
+| [.../FourierKAN](https://github.com/GistNoesis/FourierKAN) | Fourier-based KAN layer. | 
+| [.../FusedFourierKAN](https://github.com/GistNoesis/FusedFourierKAN) | Optimized FourierKAN with fused GPU kernels. |
+| [.../fKAN](https://github.com/alirezaafzalaghaei/fKAN) | Fractional KAN using Jacobi functions. | 
+| [.../rKAN](https://github.com/alirezaafzalaghaei/rKAN) | Rational KAN (Padé/Jacobi rational designs). | 
+| [.../CVKAN](https://github.com/M-Wolff/CVKAN) | Complex-valued KANs. | 
+| [.../SincKAN](https://github.com/DUCH714/SincKAN) | Sinc-based KAN for PINN applications. |
+| [.../ChebyKAN](https://github.com/SynodicMonth/ChebyKAN) | Chebyshev polynomial-based KAN. | 
+| [.../OrthogPolyKANs](https://github.com/Boris-73-TA/OrthogPolyKANs) | Orthogonal polynomial-based KAN implementations. |
+| [.../kaf_act](https://github.com/kolmogorovArnoldFourierNetwork/kaf_act) | RFF-based activation library. | 
+| [.../KAF](https://github.com/kolmogorovArnoldFourierNetwork/KAF) | Kolmogorov–Arnold Fourier Networks. | 
+| [.../HRKAN](https://github.com/kelvinhkcs/HRKAN) | Higher-order ReLU-KANs. | 
+| [.../KINN](https://github.com/yizheng-wang/Research-on-Solving-Partial-Differential-Equations-of-Solid-Mechanics-Based-on-PINN) | PIKAN for solid mechanics PDEs. | 
+| [.../KAN_PointNet_CFD](https://github.com/Ali-Stanford/KAN_PointNet_CFD) | Jacobi-based KAN for CFD predictions. | 
+| [.../FKAN-GCF](https://github.com/Jinfeng-Xu/FKAN-GCF) | FourierKAN-GCF for graph filtering. | 
+| [.../KKANs_PIML](https://github.com/jdtoscano94/KKANs_PIML) | Kurkova-KANs combining MLP with basis functions. | 
+| [.../MLP-KAN](https://github.com/Zhangyanbo/MLP-KAN) | MLP-augmented KAN activations. | 
+| [.../kat](https://github.com/Adamdad/kat) | Kolmogorov–Arnold Transformer. | 
+| [.../FAN](https://github.com/YihongDong/FAN) | Fourier Analysis Network (FAN). |
+| [.../Basis_Functions](https://github.com/seydi1370/Basis_Functions) | Polynomial bases for KANs. | 
+| [.../Wav-KAN](https://github.com/zavareh1/Wav-KAN) | Wavelet-based KANs. | 
+| [.../qkan](https://github.com/Jim137/qkan) | Quantum-inspired KAN variants and pruning. | 
+| [.../KAN-Converge](https://github.com/liouvill/KAN-Converge) | Additive & hybrid KANs for convergence-rate experiments. | 
+| [.../BSRBF_KAN](https://github.com/hoangthangta/BSRBF_KAN) | Combines B-spline and RBF bases. |
+| [.../Bayesian-HR-KAN](https://github.com/wmdataphys/Bayesian-HR-KAN) | Bayesian higher-order ReLU-KANs with uncertainty quantification. |
+| [.../Legend-KINN](https://github.com/zhang-zhuo001/Legend-KINN) | Legendre polynomial–based KAN for efficient PDE solving. |
+| [.../DeepOKAN](https://github.com/DiabAbu/DeepOKAN) | Deep Operator Network based on KAN. |
+| [.../LeanKAN](https://github.com/DENG-MIT/LeanKAN) | A memory-efficient Kolmogorov–Arnold Network. |
+| [.../SPIKANs](https://github.com/pnnl/spikans) | A Separation-of-variables to decompose high-dimensional PDEs into smaller KANs. |
 | [openkan.org](http://openkan.org/) | Features a non-spline KAN trained via Newton–Kaczmarz. |
-| [ParamIntelligence/Anant-Net](https://github.com/ParamIntelligence/Anant-Net) | High-dimensional PDE solver with tensor sweeps. |
-| [srigas/RGA-KANs](https://github.com/srigas/RGA-KANs) | Deep cPIKANs with variance-preserving initialization. |
-| [schwallergroup/lmkan](https://github.com/schwallergroup/lmkan) | Lookup-based KAN for fast high-dimensional mappings. |
-| [srigas/KAN_Initialization_Schemes](https://github.com/srigas/KAN_Initialization_Schemes) | Initialization schemes for spline-based KANs. |
+| [.../Anant-Net](https://github.com/ParamIntelligence/Anant-Net) | High-dimensional PDE solver with tensor sweeps. |
+| [.../RGA-KANs](https://github.com/srigas/RGA-KANs) | Deep cPIKANs with variance-preserving initialization. |
+| [.../lmkan](https://github.com/schwallergroup/lmkan) | Lookup-based KAN for fast high-dimensional mappings. |
+| [.../KAN_Initialization_Schemes](https://github.com/srigas/KAN_Initialization_Schemes) | Initialization schemes for spline-based KANs. |
 | [.../mlp-kan](https://github.com/geoelements-dev/mlp-kan) | KAN vs. MLP for PDEs in DeepONet/GNS frameworks. |
 | [.../KANQAS_code](https://github.com/Aqasch/KANQAS_code) | KANQAS: KAN for quantum architecture search. |
 | [.../pkan](https://github.com/andrewpolar/pkan) | Probabilistic KAN via divisive data re-sorting. |
