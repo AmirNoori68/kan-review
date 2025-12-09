@@ -61,13 +61,6 @@ Paper and repository reference information:
 | Reference, Code | Focus | Novelty / Key Contribution |
 |------------|--------|-----------------------------|
 | [Kundu](https://doi.org/10.1140/epjqt/s40507-024-00289-z) , [Code](https://github.com/Aqasch/KANQAS_code) | Efficiency | Replaces the MLP in Reinforcement Learning for Quantum Architecture Search with a KAN. |
-| [Jacob](https://doi.org/10.1088/2632-2153/ae05af) , [Code](https://github.com/pnnl/spikans) | Scalability | Applies the separation of variables principle to decompose a high-dimensional problem into multiple, smaller KANs. |
-| [Polar](https://doi.org/10.3390/modelling6030088), [Code](https://github.com/andrewpolar/vdice_bilinear) | Uncertainty quantification | A shallow KAN combined with an ensemble learning method (DDR) for probabilistic regression and uncertainty quantification. |
-| [Igelnik](https://doi.org/10.1109/TNN.2003.813830) | 2003 — Foundation | The first shallow one-hidden-layer adaptive Spline KAN. |
-| [Polar](https://doi.org/10.1016/j.engappai.2020.104137) | 2021 - Hierarchical KAN | Develops a multi-level Urysohn-tree algorithm—functionally deep but not layer-stacked like modern deep KANs. |
-| [Deventer](https://arxiv.org/abs/2205.06376) | 2022 - Hierarchical KAN | A shallow spline-based KAN demonstrating universal approximation and pseudo-rehearsal mitigation of catastrophic forgetting. |
-| [Poluektov](https://doi.org/10.1007/s10994-025-06800-6) , [Code](https://github.com/andrewpolar/RidgeIdentM) | Optimization | A shallow KAN with Newton–Kaczmarz training algorithm and parallelized implementation. |
-[Clafa](https://arxiv.org/abs/2507.22678) , [Code](https://github.com/teocala/pihnn)| Architecture / Accuracy | Introduces a complex-analytic KAN with polynomial basis for solving elasticity problems. |
 
 ---
 
@@ -204,6 +197,7 @@ Paper and repository reference information:
 | Velocity–vorticity loss for turbulence reconstruction. | [Toscano](https://arxiv.org/abs/2407.15727v2) | 
 | Fractional/integro-diff. operators in KAN. | [Aghaei](https://arxiv.org/abs/2409.06649) | 
 | Physics-informed KAN for high-index DAEs (dual-network structure). | [Lou](https://arxiv.org/abs/2504.15806) |
+| Holomorphic KAN  for elliptic PDEs; trains only on boundary conditions. | [Clafa](https://arxiv.org/abs/2507.22678) , [Code](https://github.com/teocala/pihnn) |
 
 ### 7.2 Adaptive Sampling & Grids
 
@@ -247,6 +241,8 @@ Paper and repository reference information:
 | KAN-ODE: KAN as $\dot u$ model (adjoint training).  | [Koeing](https://arxiv.org/abs/2407.04192) | 
 | AAKAN-WGAN: adaptive KAN + GAN for data augmentation.  | [Shen](https://doi.org/10.1016/j.mtcomm.2025.113198) | 
 | Attention-KAN-PINN for battery SOH forecasting. | [Wei](https://doi.org/10.1016/j.eswa.2025.128969) | 
+| KANQAS: uses KAN Double Deep Q-Network for quantum architecture search. | [Kundu 2024](https://doi.org/10.1140/epjqt/s40507-024-00289-z) , [Code](https://github.com/Aqasch/KANQAS_code) |
+
 
 ### 7.7 Discontinuities & Sharp Gradients
 
