@@ -62,30 +62,30 @@ Paper and repository reference information:
 ## 2.  History of Kolmogorov Superposition Theorem
 | Year | Reference | Key Contribution |
 |------|-----------|------------------|
-| 1900 | [Hilbert](#) | Poses Hilbert's 13th problem |
-| 1956 | [Kolmogorov](#) | Preliminary idea of superpositions; first hint toward the theorem |
-| 1957 | [Arnol'd](#) | First explicit 3-variable construction (9 terms); counterexample to Hilbert 13 |
-| 1957 | [Kolmogorov](#) | Full Kolmogorov Superposition Theorem; first general \(n\)-D proof |
-| 1958 | [Arnol'd](#) | Supplies missing lemmas; completes Kolmogorov’s proof |
-| 1962 | [Lorentz](#) | Simplified canonical form with a **single outer function** |
-| 1965 | [Sprecher](#) | First **single universal inner function**; reduces all \(\phi_{p,q}\) to one \(\psi\) |
-| 1967 | [Fridman](#) | Shows universal inner functions can be taken **Lipschitz-1** |
-| 1980 | [de Figueiredo](#) | First network-like interpretation; block diagram + learned outer function (Chebyshev basis) |
-| 1987 | [Hecht–Nielsen](#) | First explicit **neural mapping theorem** based on KST |
-| 1989 | [Girosi–Poggio](#) | First rigorous critique: inner functions must be non-smooth; outer functions non-parametric |
-| 1989 | [Frisch et al.](#) | First computational implementation of Lorentz form; iterative outer-function learning |
-| 1991 | [Kurková](#) | First approximation-theoretic reinterpretation; relates network size to modulus of continuity |
-| 1992 | [Kurková](#) | Two-hidden-layer sigmoidal approximants; universal inner weights |
-| 1993 | [Sprecher](#) | Single universal \(\psi\) valid for **all** \(n\) |
-| 1993 | [Nakamura et al.](#) | First **fully constructive** version with guaranteed accuracy |
-| 1994 | [Nees](#) | First piecewise-linear inner maps with geometric error decay; constructive algorithm |
-| 1996 | [Sprecher](#) | First executable version of \(\psi\) with verified separation property |
-| 1997 | [Sprecher](#) | Explicit constructive algorithm for the outer functions |
-| 2002 | [Köppen](#) | Corrected continuous monotone inner function; first training-ready KST inner map |
-| 2003 | [Igelnik–Parikh](#) | Kolmogorov Spline Network (KSN): trainable spline-based inner/outer functions |
-| 2009 | [Braun–Griebel](#) | First **correct constructive** KST; repairs Sprecher’s scheme |
-| 2019 | [Actor–Knepley](#) | Proves **\(C^1\) inner functions impossible**; smoothness obstruction |
-| 2024 | [Liu et al.](#) | Introduces **KAN**, the first deep architecture inspired by the Kolmogorov–Arnold representation |
+| 1900 | [Hilbert](https://www.math.uni-goettingen.de/historisches/hilbert/problems.html) | Poses Hilbert's 13th problem |
+| 1956 | Kolmogorov | Preliminary idea of superpositions; first hint toward the theorem |
+| 1957 | Arnol'd | First explicit 3-variable construction (9 terms); counterexample to Hilbert 13 |
+| 1957 | [Kolmogorov](https://cs.uwaterloo.ca/~y328yu/classics/Kolmogorov57.pdf) | Full Kolmogorov Superposition Theorem; first general \(n\)-D proof |
+| 1958 | Arnol'd | Supplies missing lemmas; completes Kolmogorov’s proof |
+| 1962 | [Lorentz](https://doi.org/10.2307/2311185) | Simplified canonical form with a **single outer function** |
+| 1965 | [Sprecher](https://www.researchgate.net/profile/David-Sprecher-2/publication/243075889_On_the_Structure_of_Continuous_Functions_of_Several_Variables/links/56e1858808aec09a8bc07e09/On-the-Structure-of-Continuous-Functions-of-Several-Variables.pdf) | First **single universal inner function** |
+| 1967 | [Fridman](https://scholar.google.com/scholar_lookup?title=Improvement%20in%20the%20smoothness%20of%20functions%20in%20the%20Kolmogorov%20superposition%20theorem&publication_year=1967&author=B.L%20Fridman) | Shows universal inner functions can be taken **Lipschitz-1** |
+| 1980 | [de Figueiredo](https://www.semanticscholar.org/paper/41f360c68c2f7feac5875f9b2c2e1f003e445353) | First network-like interpretation; block diagram + learned outer function (Chebyshev basis) |
+| 1987 | [Hecht–Nielsen](https://cs.uwaterloo.ca/~y328yu/classics/Hecht-Nielsen.pdf) | First explicit **neural mapping theorem** based on KST |
+| 1989 | [Girosi–Poggio](https://doi.org/10.1162/neco.1989.1.4.465) | First rigorous critique: inner functions must be non-smooth; outer functions non-parametric |
+| 1989 | [Frisch et al.](https://doi.org/10.1103/PhysRevLett.63.927) | First computational implementation of Lorentz form; iterative outer-function learning |
+| 1991 | [Kurková](https://doi.org/10.1162/neco.1991.3.4.617) | First approximation-theoretic reinterpretation; relates network size to modulus of continuity |
+| 1992 | [Kurková](https://doi.org/10.1016/0893-6080(92)90012-8) | Two-hidden-layer sigmoidal approximants; universal inner weights |
+| 1993 | [Sprecher](https://doi.org/10.1016/S0893-6080(09)80020-8) | Single universal \(\psi\) valid for **all** \(n\) |
+| 1993 | [Nakamura et al.](https://interval.louisiana.edu/reliable-computing-journal/1993/interval-computations-1993-3-pp-183-199.pdf) | First **fully constructive** version with guaranteed accuracy |
+| 1994 | [Nees](https://www.sciencedirect.com/science/article/pii/0377042794901791/pdf?md5=60003a3ef366ada393fe011a707dcfa8&pid=1-s2.0-0377042794901791-main.pdf) | First piecewise-linear inner maps with geometric error decay; constructive algorithm |
+| 1996 | [Sprecher](https://doi.org/10.1016/0893-6080(95)00081-X) | First executable version of \(\psi\) with verified separation property |
+| 1997 | [Sprecher](https://doi.org/10.1016/S0893-6080(96)00073-1) | Explicit constructive algorithm for the outer functions |
+| 2002 | [Köppen](https://doi.org/10.1007/3-540-46084-5_77) | Corrected continuous monotone inner function; first training-ready KST inner map |
+| 2003 | [Igelnik–Parikh](https://doi.org/10.1109/TNN.2003.813830) | Kolmogorov Spline Network (KSN): trainable spline-based inner/outer functions |
+| 2009 | [Braun–Griebel](https://doi.org/10.1007/s00365-009-9054-2) | First **correct constructive** KST; repairs Sprecher’s scheme |
+| 2019 | [Actor–Knepley](https://arxiv.org/abs/1712.08286) | Proves **\(C^1\) inner functions impossible**; smoothness obstruction |
+| 2024 | [Liu et al.](https://arxiv.org/abs/2404.19756) | Introduces **KAN**, the first deep architecture inspired by the Kolmogorov–Arnold representation |
 
 ---
 
