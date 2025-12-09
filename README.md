@@ -6,7 +6,7 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 
 ## Quick Nav
 1. Citation
-2. A history of Kolmogorov Superposition Theorem
+2. History of Kolmogorov Superposition Theorem
 3. Review and Survey Papers on KANs  
 4. Representative Repositories  
 5. Bridging KANs and MLPs  
