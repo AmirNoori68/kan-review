@@ -5,8 +5,8 @@ We **welcome corrections, discussions, and new contributions** — The updates b
 If you notice any missing or misattributed references, kindly contact [amir_noori@hkbu.edu.hk](mailto:amir_noori@hkbu.edu.hk) so they can be added in the next GitHub update and preprint revision.
 
 ## Quick Nav
-1. Citation
-2. History of Kolmogorov Superposition Theorem
+1. [Citation](#1--citation)
+2. [History of Kolmogorov Superposition Theorem](#2--history-of-kolmogorov-superposition-theorem)
 3. Review and Survey Papers on KANs  
 4. Representative Repositories  
 5. Bridging KANs and MLPs  
