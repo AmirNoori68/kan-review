@@ -393,7 +393,6 @@ Paper and repository reference information:
 | Gradient-flow convergence guarantees for two-layer KANs. | [Gao](https://arxiv.org/abs/2410.08041) | 
 | Chebyshev/cPIKAN maintain better NTK conditioning for PDEs. | [Faroughi 2025](https://arxiv.org/abs/2506.07958) |
 | Initialization schemes improve NTK stability. | [Rigas 2025](https://www.arxiv.org/abs/2510.23501) , [Code](https://github.com/srigas/RGA-KANs) |
-| Wide spectra increase curvature; risk of instability. | [Farea](https://arxiv.org/abs/2411.15111) , [Code](https://github.com/afrah/pinn_learnable_activation) | 
 
 
 ### 10.3 Empirical Power Laws
