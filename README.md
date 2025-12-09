@@ -77,10 +77,10 @@ Paper and repository reference information:
 | 1989 | [Frisch et al.](https://doi.org/10.1103/PhysRevLett.63.927) | First computational implementation of Lorentz form; iterative outer-function learning |
 | 1991 | [Kurková](https://doi.org/10.1162/neco.1991.3.4.617) | First approximation-theoretic reinterpretation; relates network size to modulus of continuity |
 | 1992 | [Kurková](https://doi.org/10.1016/0893-6080(92)90012-8) | Two-hidden-layer sigmoidal approximants; universal inner weights |
-| 1993 | [Sprecher](https://doi.org/10.1016/S0893-6080(09)80020-8) | Single universal inner valid for **all** input dimensions |
+| 1993 | [Sprecher](https://doi.org/10.1016/S0893-6080(09)80020-8) | Single universal inner function valid for **all** input dimensions |
 | 1993 | [Nakamura et al.](https://interval.louisiana.edu/reliable-computing-journal/1993/interval-computations-1993-3-pp-183-199.pdf) | First **fully constructive** version with guaranteed accuracy |
 | 1994 | [Nees](https://www.sciencedirect.com/science/article/pii/0377042794901791/pdf?md5=60003a3ef366ada393fe011a707dcfa8&pid=1-s2.0-0377042794901791-main.pdf) | First piecewise-linear inner maps with geometric error decay; constructive algorithm |
-| 1996 | [Sprecher](https://doi.org/10.1016/0893-6080(95)00081-X) | First executable version of \(\psi\) with verified separation property |
+| 1996 | [Sprecher](https://doi.org/10.1016/0893-6080(95)00081-X) | First executable version of inner function with verified separation property |
 | 1997 | [Sprecher](https://doi.org/10.1016/S0893-6080(96)00073-1) | Explicit constructive algorithm for the outer functions |
 | 2002 | [Köppen](https://doi.org/10.1007/3-540-46084-5_77) | Corrected continuous monotone inner function; first training-ready KST inner map |
 | 2003 | [Igelnik–Parikh](https://doi.org/10.1109/TNN.2003.813830) | Kolmogorov Spline Network (KSN): trainable spline-based inner/outer functions |
