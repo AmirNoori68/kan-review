@@ -60,7 +60,7 @@ Paper and repository reference information:
 ```
 ---
 ## 2.  Kolmogorov Superposition Theorem (KST) and Its Refinement Toward Neural Networks  
-*More detailed explanations and citations are provided in the main paper.*
+*More detailed explanations and citations are provided in our [KAN review paper](https://www.researchgate.net/publication/397082000_A_Practitioner's_Guide_to_Kolmogorov-Arnold_Networks)..*
 | Year | Reference | Key Contribution |
 |------|-----------|------------------|
 | 1900 | [Hilbert](https://www.math.uni-goettingen.de/historisches/hilbert/problems.html) | Poses Hilbert's 13th problem |
