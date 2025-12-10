@@ -374,7 +374,7 @@ Paper and repository reference information:
 
 ---
 
-## 10. Convergence & Scaling Laws (KAN/PIKAN only)
+## 10. Convergence & Scaling Laws
 
 ### 10.1 Approximation & Sample Complexity
 
