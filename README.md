@@ -42,7 +42,7 @@ Paper and repository reference information:
 ```bibtex
 @misc{GuideToKAN, 
   title     = {A Practitioner's Guide to Kolmogorov-Arnold Networks}, 
-  author    = {Amir Noorizadegan and Sifan Wang and Leevan Ling},
+  author    = {Amir Noorizadegan and Sifan Wang and Leevan Ling and Juan Pedro Dominguez-Morales},
   year      = {2025},
   eprint    = {2510.25781},
   archivePrefix = {arXiv},
