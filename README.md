@@ -5,6 +5,7 @@ We **welcome corrections, discussions, and new contributions** — The updates b
 If you notice any missing or misattributed references, kindly contact [amir_noori@hkbu.edu.hk](mailto:amir_noori@hkbu.edu.hk) so they can be added in the next GitHub update and preprint revision.
 
 
+
 ## Quick Nav
 1. [Citation](#1-citation)
 2. [Kolmogorov Superposition Theorem (KST) and Its Refinement Toward Neural Networks](#2-kolmogorov-superposition-theorem-kst-and-its-refinement-toward-neural-networks)
