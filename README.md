@@ -107,7 +107,9 @@ Paper and repository reference information:
 
 | Repository | Description |
 |-------------|-------------|
-| [.../pykan](https://github.com/KindXiaoming/pykan) | Official PyKAN for “KAN” and “KAN 2.0”. | 
+| [.../pykan](https://github.com/KindXiaoming/pykan) | Official PyKAN for “KAN” and “KAN 2.0”. |
+| [.../Gaussian-KAN](https://github.com/AmirNoori68/Gaussian-KAN) | Pure Gaussian RBF-KAN implementation by Noorizadegan, focusing on Gaussian basis functions and scale-parameter effects. |
+| [.../PU-GKAN](https://github.com/AmirNoori68/PU-GKAN) | Partition-of-Unity Gaussian KAN implementation by Noorizadegan, using normalized Gaussian basis functions. |
 | [.../pinn_learnable_activation](https://github.com/afrah/pinn_learnable_activation) | Compares various KAN bases vs. MLP on PDEs. | 
 | [.../torchkan](https://github.com/1ssb/torchkan) | Simplified PyTorch KAN with multiple variants. | 
 | [.../awesome-kan](https://github.com/mintisan/awesome-kan) | Curated list of KAN resources, projects, and papers. | 
