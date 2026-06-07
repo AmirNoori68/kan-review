@@ -42,22 +42,16 @@ If you notice any missing or misattributed references, kindly contact [amir_noor
 Paper and repository reference information:
 
 ```bibtex
-@misc{GuideToKAN, 
-  title     = {A Practitioner's Guide to Kolmogorov-Arnold Networks}, 
-  author    = {Amir Noorizadegan and Sifan Wang and Leevan Ling and Juan Pedro Dominguez-Morales},
-  year      = {2025},
-  eprint    = {2510.25781},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.LG},
-  url       = {https://arxiv.org/abs/2510.25781}
-}
-
-@misc{GuideToKAN_GitHub,
-  author    = {Amir Noorizadegan},
-  title     = {KAN Review: Companion Repository for "A Practitioner's Guide to Kolmogorov-Arnold Networks"},
-  year      = {2025},
-  howpublished = {\url{https://github.com/AmirNoori68/kan-review}},
-  note      = {Accessed: 2025-11-01}
+@article{GuideToKAN,
+  title   = {A practitioner's guide to {Kolmogorov--Arnold} networks},
+  author  = {Noorizadegan, Amir and Wang, Sifan and Ling, Leevan and Dominguez-Morales, Juan P.},
+  journal = {Computer Science Review},
+  volume  = {62},
+  pages   = {100991},
+  year    = {2026},
+  issn    = {1574-0137},
+  doi     = {10.1016/j.cosrev.2026.100991},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1574013726000997}
 }
 ```
 ---
